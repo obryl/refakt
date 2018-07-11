@@ -23,6 +23,7 @@ export class HeaderComponent implements OnInit {
   isNavbarCollapsed = true;
   _isNavbarCollapsedAnim = 'closed';
 
+
   get isNavbarCollapsedAnim(): string {
     return this._isNavbarCollapsedAnim;
   }
