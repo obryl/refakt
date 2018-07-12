@@ -17,8 +17,8 @@ const routes: Routes = [
 
     },
     {
-        path: 'about',
-        loadChildren: 'app/modules/about/about.module#AboutModule'
+        path: 'products',
+        loadChildren: 'app/modules/products/products.module#ProductsModule'
 
     },
     {path: '**', redirectTo: ''}

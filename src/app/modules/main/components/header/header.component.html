@@ -1,26 +1,33 @@
-<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-  <div class="container">
-    <a href="#" class="navbar-brand">ngbs-1</a>
-    <button class="navbar-toggler" (click)="toggleNavbar()"  type="button" aria-controls="theNavbar" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+<nav class="navbar navbar-expand-sm navbar-dark fixed-top">
+    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 brand">
+        <a routerLink="/home" class="navbar-brand">Private</a>
+        <button class="navbar-toggler" (click)="toggleNavbar()" type="button" aria-controls="theNavbar"
+                aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+
+
+
     <div [ngbCollapse]="isNavbarCollapsed" id="theNavbar"
          [@collapse]="isNavbarCollapsedAnim"
          class="navbar-collapse collapse navbar-toggleable">
-      <ul class="navbar-nav mr-auto ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" routerLink="/home" routerLinkActive="active">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" routerLink="/services" routerLinkActive="active">Services</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" routerLink="/about" routerLinkActive="active">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" routerLink="/contacts" routerLinkActive="active">Contacts</a>
-        </li>
-      </ul>
+        <ul class="navbar-nav  ml-auto" [ngClass]="{'mr-auto' : isNavbarCollapsed}">
+            <li class="nav-item">
+                <a class="nav-link" routerLink="/home" routerLinkActive="active">Про нас</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" routerLink="/products" routerLinkActive="active">Продукція</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" routerLink="/delivery" routerLinkActive="active">Доставка та оплата</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" routerLink="/contacts" routerLinkActive="active">Контакти</a>
+            </li>
+        </ul>
     </div>
-  </div>
+<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+
+</div>
 </nav>
