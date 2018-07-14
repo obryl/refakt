@@ -1,15 +1,15 @@
 import {NgModule} from '@angular/core';
 import {RouterModule, Routes} from '@angular/router';
 
-import {MainComponent} from './containers/main/main.component';
+import {ProductsComponent} from './products/products.component';
 
 const routes: Routes = [
     {
         path: '',
-        component: MainComponent,
+        component: ProductsComponent,
         children: []
     },
-    {path: '**', redirectTo: '', pathMatch: 'full'}
+    {path: '**', redirectTo: ''}
 ];
 
 @NgModule({
@@ -17,5 +17,5 @@ const routes: Routes = [
     providers: [],
     exports: [RouterModule]
 })
-export class MainRoutingModule {
+export class ProductsRoutingModule {
 }

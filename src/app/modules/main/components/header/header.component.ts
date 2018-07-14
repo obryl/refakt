@@ -23,6 +23,8 @@ export class HeaderComponent implements OnInit {
   isNavbarCollapsed = true;
   _isNavbarCollapsedAnim = 'closed';
 
+constructor () {}
+
   get isNavbarCollapsedAnim(): string {
     return this._isNavbarCollapsedAnim;
   }
@@ -33,7 +35,8 @@ export class HeaderComponent implements OnInit {
 
   @HostListener('window:resize', ['$event.target'])
   onResize(event) {
-    if (event.innerWidth > 990) {
+  console.log(event.innerWidth);
+    if (event.innerWidth > 576) {
       this._isNavbarCollapsedAnim = 'open';
       this.isNavbarCollapsed = true;
     } else {
