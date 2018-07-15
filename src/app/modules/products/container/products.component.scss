@@ -1,0 +1,22 @@
+.categories {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+  .category {
+    flex: 1;
+    max-width: 300px;
+    text-align: center;
+    color: #fff;
+    margin: 0 10px;
+    .category-img {
+      height: 300px;
+      display: block;
+    }
+    .category-desc {
+      height: 150px;
+      padding: 30px;
+      background-color: rgba(0, 0, 0, 0.2);
+    }
+  }
+}
