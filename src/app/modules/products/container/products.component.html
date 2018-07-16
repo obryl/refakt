@@ -1,0 +1,11 @@
+<div class="categories">
+  <div *ngFor="let category of categories" class="category">
+    <img src="{{category.img}}" class="category-img">
+    <div class="category-desc">
+      <h6>{{category.title}}</h6>
+      <span *ngFor="let product of category.products; let i = index">
+        {{product.name}}<i *ngIf="i !== category.products.length - 1">,</i>
+      </span>
+    </div>
+  </div>
+</div>

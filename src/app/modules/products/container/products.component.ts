@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {AngularFireDatabase} from 'angularfire2/database';
 
 @Component({
   selector: 'app-products',
@@ -7,9 +8,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProductsComponent implements OnInit {
 
-  constructor() { }
+  categories: any[] = [];
+
+  constructor(private db: AngularFireDatabase) { }
 
   ngOnInit() {
+    this.db.list('/categories').valueChanges().subscribe((categories) => {
+      this.categories = categories;
+    });
   }
 
 }
