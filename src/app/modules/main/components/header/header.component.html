@@ -10,7 +10,7 @@
 
 
     <div [ngbCollapse]="isNavbarCollapsed" id="theNavbar"
-         [@collapse]="isNavbarCollapsedAnim"
+         [@collapse]="isNavbarCollapsedAnim()"
          class="navbar-collapse collapse navbar-toggleable">
         <ul class="navbar-nav  ml-auto" [ngClass]="{'mr-auto' : isNavbarCollapsed}">
             <li class="nav-item">
