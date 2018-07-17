@@ -1,15 +1,22 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, HostBinding, OnInit} from '@angular/core';
+
+import {slideInDownAnimation} from '../../../animations';
 
 @Component({
-  selector: 'app-homepage',
-  templateUrl: './homepage.component.html',
-  styleUrls: ['./homepage.component.scss']
+    selector: 'app-homepage',
+    templateUrl: './homepage.component.html',
+    styleUrls: ['./homepage.component.scss'],
+    animations: [slideInDownAnimation]
 })
 export class HomepageComponent implements OnInit {
 
-  constructor() { }
+    @HostBinding('@routeAnimation') routeAnimation = true;
+    @HostBinding('style.display')   display = 'block';
 
-  ngOnInit() {
-  }
+    constructor() {
+    }
+
+    ngOnInit() {
+    }
 
 }
