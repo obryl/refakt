@@ -1,6 +1,6 @@
 import {Component, HostBinding, OnInit} from '@angular/core';
 
-import {slideInDownAnimation} from '../../../animations';
+import {slideInDownAnimation} from '../../../../animations';
 
 @Component({
     selector: 'app-homepage',

@@ -4,17 +4,22 @@ import {AngularFireDatabaseModule} from 'angularfire2/database';
 import {AngularFireAuthModule} from 'angularfire2/auth';
 import {AngularFireModule} from 'angularfire2';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
-
 import {AppComponent} from './app.component';
 import {environment} from '../environments/environment';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {AppRoutingModule} from './app-routing.module';
 import {HeaderComponent} from './modules/main/components/header/header.component';
+import {HomepageComponent} from './modules/main/containers/homepage/homepage.component';
+import {DeliveryComponent} from './modules/main/containers/delivery/delivery.component';
+import {ContactsComponent} from './modules/main/containers/contacts/contacts.component';
 
 @NgModule({
     declarations: [
         AppComponent,
-        HeaderComponent
+        HeaderComponent,
+        HomepageComponent,
+        DeliveryComponent,
+        ContactsComponent
     ],
     imports: [
         BrowserModule,
