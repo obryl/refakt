@@ -1,7 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
 body {
-  padding-top: 120px;
+  padding-top: 12vmin;
   background-image: url(./assets/images/bg1.jpg);
   color: #f6a64d;
   text-align: center;
+  width: 100%;
+  margin: 0 auto;
+}
+*:focus {
+  outline: none;
 }

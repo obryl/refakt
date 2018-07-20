@@ -1,10 +1,10 @@
 .navbar {
-  background-color: rgba(0, 0, 0, .2);
-  height: 120px;
-  padding-top: 35px;
-  align-items: baseline;
+  background-color: rgba(0, 0, 0, .5);
+  height: 12vmin;
   min-width: 320px;
-  }
+  width: 100%;
+  margin: 0 auto;
+}
 
 li a.nav-link.active {
   color: #f6a64d;
@@ -46,7 +46,7 @@ ul.navbar-nav.mr-auto.ml-auto {
 }
 
 .show ul {
-  background: rgba(0,0,0, 0.8);
+  background: rgba(0, 0, 0, 0.8);
   border-radius: 4px;
   width: 167px;
   padding: 0 10px;
@@ -58,6 +58,6 @@ ul.navbar-nav.mr-auto.ml-auto {
 
 .brand {
   text-align: center;
-display: flex;
+  display: flex;
   justify-content: space-between;
 }
