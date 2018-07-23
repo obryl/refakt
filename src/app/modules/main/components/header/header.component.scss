@@ -37,7 +37,7 @@ li a.nav-link:hover span:before {
 
 li a.nav-link span {
   position: relative;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 1.1rem;
 }
 
@@ -60,4 +60,8 @@ ul.navbar-nav.mr-auto.ml-auto {
   text-align: center;
   display: flex;
   justify-content: space-between;
+}
+
+.banner-text li.active{
+ color: #f6a64d;
 }

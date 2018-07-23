@@ -1,5 +1,4 @@
-import {Component, HostBinding, OnInit} from '@angular/core';
-
+import {Component, ElementRef, HostBinding, OnInit, ViewChild} from '@angular/core';
 import {slideInDownAnimation} from '../../../../animations';
 import {NgbCarouselConfig} from '@ng-bootstrap/ng-bootstrap';
 
@@ -13,13 +12,14 @@ import {NgbCarouselConfig} from '@ng-bootstrap/ng-bootstrap';
 export class HomepageComponent implements OnInit {
 
     @HostBinding('@routeAnimation') routeAnimation = true;
-    @HostBinding('style.display')   display = 'block';
-
+    @HostBinding('style.display') display = 'block';
+@ViewChild('ol') el: ElementRef;
     constructor(public config: NgbCarouselConfig) {
 
     }
 
     ngOnInit() {
+console.log(this.el);
     }
 
 }

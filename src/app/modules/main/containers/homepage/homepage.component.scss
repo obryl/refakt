@@ -1,5 +1,5 @@
 .banner {
-  background-image: url(../../../../../assets/images/1.jpg);
+  background-image: url(/assets/images/1.jpg);
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -13,10 +13,6 @@
   margin-bottom: 3vmin;
 }
 
-ol.carousel-indicators {
-  border-bottom: 12px;
-}
-
 .banner-text {
   border: solid 5px white;
   width: 50%;
@@ -24,7 +20,7 @@ ol.carousel-indicators {
   max-height: 240px;
   max-width: 480px;
   color: #ffffff;
-  font-family: "Segoe UI";
+  font-family: "Segoe UI", serif;
   font-weight: 400;
   padding: 1.5vmin;
 }
