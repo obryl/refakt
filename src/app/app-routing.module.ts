@@ -1,20 +1,27 @@
 import {NgModule} from '@angular/core';
 import {RouterModule, Routes} from '@angular/router';
+import {HomepageComponent} from './modules/main/containers/homepage/homepage.component';
+import {DeliveryComponent} from './modules/main/containers/delivery/delivery.component';
+import {ContactsComponent} from './modules/main/containers/contacts/contacts.component';
 
 const routes: Routes = [
     {
         path: '', redirectTo: '/home', pathMatch: 'full'
-
     },
     {
         path: 'home',
-        loadChildren: 'app/modules/homepage/homepage.module#HomepageModule'
-
+        component: HomepageComponent,
+        children: []
     },
     {
-        path: 'main',
-        loadChildren: 'app/modules/main/main.module#MainModule'
-
+        path: 'delivery',
+        component: DeliveryComponent,
+        children: []
+    },
+    {
+        path: 'contacts',
+        component: ContactsComponent,
+        children: []
     },
     {
         path: 'products',
