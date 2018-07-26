@@ -1,6 +1,7 @@
 import {Component, HostBinding, OnInit} from '@angular/core';
 
 import {slideInDownAnimation} from '../../../../animations';
+import {FirebaseService} from '../../../../core/services/firebase.service';
 
 @Component({
     selector: 'app-delivery',
@@ -11,9 +12,9 @@ import {slideInDownAnimation} from '../../../../animations';
 export class DeliveryComponent implements OnInit {
 
     @HostBinding('@routeAnimation') routeAnimation = true;
-    @HostBinding('style.display')   display = 'block';
+    @HostBinding('style.display') display = 'block';
 
-    constructor() {
+    constructor(public fbservice: FirebaseService) {
     }
 
     ngOnInit() {

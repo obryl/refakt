@@ -12,6 +12,8 @@ import {HeaderComponent} from './modules/main/components/header/header.component
 import {HomepageComponent} from './modules/main/containers/homepage/homepage.component';
 import {DeliveryComponent} from './modules/main/containers/delivery/delivery.component';
 import {ContactsComponent} from './modules/main/containers/contacts/contacts.component';
+import {FirebaseService} from './core/services/firebase.service';
+import {AngularFireStorageModule} from 'angularfire2/storage';
 
 @NgModule({
     declarations: [
@@ -26,11 +28,12 @@ import {ContactsComponent} from './modules/main/containers/contacts/contacts.com
         AngularFireModule.initializeApp(environment.firebase),
         AngularFireDatabaseModule,
         AngularFireAuthModule,
+        AngularFireStorageModule,
         NgbModule.forRoot(),
         BrowserAnimationsModule,
         AppRoutingModule
     ],
-    providers: [],
+    providers: [FirebaseService],
     bootstrap: [AppComponent]
 })
 export class AppModule {
