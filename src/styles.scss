@@ -1,6 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 body {
   padding-top: 12vmin;
+  padding-bottom: 12vmin;
   background-image: url(assets/images/bg1.jpg);
   color: #f6a64d;
   text-align: center;
@@ -10,6 +11,9 @@ body {
 *:focus {
   outline: none;
 }
-.carousel-indicators li.active {
-  background-color: #f6a64d;
+.carousel-indicators{
+
+  li.active {
+    background-color: #f6a64d;
+  }
 }
