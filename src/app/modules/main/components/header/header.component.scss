@@ -1,9 +1,28 @@
 .navbar {
   background-color: rgba(0, 0, 0, .5);
-  height: 12vmin;
+  height: 11vmin;
+  min-height: 40px;
   min-width: 320px;
   width: 100%;
   margin: 0 auto;
+}
+
+.navbar-brand {
+  align-self: center;
+}
+
+.navbar-collapse {
+  align-self: baseline;
+}
+
+.navbar-toggler {
+  padding: 1vmin;
+  font-size: 0;
+}
+
+.navbar-toggler-icon {
+  height: 5vmin;
+  width: 5vmin;
 }
 
 li a.nav-link.active {
@@ -60,6 +79,8 @@ ul.navbar-nav.mr-auto.ml-auto {
   text-align: center;
   display: flex;
   justify-content: space-between;
+  height: 8vmin;
+  align-self: baseline;
 }
 
 .banner-text li.active{

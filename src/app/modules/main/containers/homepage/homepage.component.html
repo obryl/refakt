@@ -24,18 +24,18 @@
             </ngb-carousel>
         </div>
     </div>
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
             <h2 class="items-header">ТОВАРИ І ПОСЛУГИ</h2>
         </div>
 
         <div class="row">
-            <div *ngFor="let item of categories | async" class="row-item col-sm-12 col-md-4 col-lg-4">
+            <div *ngFor="let item of categories | async" class="row-item col-sm-12 col-md-4 col-lg-4 col-xl-4">
                 <div class="img__wrap">
                     <img class="img__img" [src]='item.payload.val().imgUrl'/>
                     <a [routerLink]='item.payload.val().url'>
                         <div class="img__description_layer">
-                            <p class="img__description" [innerHtml] = 'item.payload.val().description'></p>
+                            <p class="img__description" [innerHtml]='item.payload.val().description'></p>
                         </div>
                     </a>
                     <div class="p-wrapper">
@@ -43,7 +43,21 @@
                     </div>
                 </div>
             </div>
-
+        </div>
+        <div class="row ">
+            <h2 class="items-header">СПІВПРАЦЯ</h2>
+        </div>
+        <div class="row cooperation">
+            <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 row-item">
+                <img src="/assets/images/cooperation.jpg" alt="Generic placeholder image" width="100%">
+            </div>
+            <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8">
+                <h5 >Media heading</h5>
+                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras
+                purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi
+                vulputate fringilla. Donec lacinia congue felis in faucibus.
+            </div>
         </div>
     </div>
+
 </main>
