@@ -1,6 +1,6 @@
 <main class="">
     <div class="banner">
-        <div class="banner-text">
+        <div class="banner-text text-center">
             <h1>Підприємство РЕФАКТ</h1>
             <ngb-carousel class="text-slider" [interval]="5000" [showNavigationArrows]="false" #slider>
                 <ng-template ngbSlide>
@@ -33,7 +33,7 @@
             <div *ngFor="let item of categories | async" class="row-item col-sm-12 col-md-4 col-lg-4">
                 <div class="img__wrap">
                     <img class="img__img" [src]='item.payload.val().imgUrl'/>
-                    <a [routerLink]='item.payload.val().url'>
+                    <a [routerLink]="'/products/' + item.key">
                         <div class="img__description_layer">
                             <p class="img__description" [innerHtml] = 'item.payload.val().description'></p>
                         </div>

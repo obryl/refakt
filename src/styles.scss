@@ -2,12 +2,15 @@
 body {
   padding-top: 12vmin;
   padding-bottom: 12vmin;
-  background-image: url(assets/images/bg1.jpg);
-  color: #f6a64d;
-  text-align: center;
+  background-color: #222c35;
+  color: #60666c;
   width: 100%;
-  margin: 0 auto;
 }
+
+p {
+  color: #d9dadc;
+}
+
 *:focus {
   outline: none;
 }
@@ -15,5 +18,17 @@ body {
 
   li.active {
     background-color: #f6a64d;
+  }
+}
+
+.table-dark {
+  background-color: rgba(0, 0, 0, 0.2);
+
+  &.table-hover {
+    tbody {
+      tr:hover {
+        background-color: rgba(249, 163, 78, .7);
+      }
+    }
   }
 }
