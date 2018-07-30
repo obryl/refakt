@@ -13,6 +13,10 @@
   margin-bottom: 1vmin;
 }
 
+.carousel-caption {
+  transition: all .2s;
+}
+
 @media only screen and (max-width: 600px) {
   .banner-text {
     min-height: 50%;
@@ -22,7 +26,7 @@
 
 .items-header {
   margin-bottom: 2vmin;
-  font-size: 3.5vmin;
+  font-size: 4vmin;
   color: white;
   font-style: italic;
   margin-top: 2.5vmin;
@@ -71,6 +75,9 @@
 
 .row {
   justify-content: center;
+}
+.products.items-header{
+  margin-top: 0;
 }
 
 .img__wrap {
@@ -143,28 +150,47 @@
 }
 
 .cooperation {
-div {
-  max-width: 570px;
-  align-self: normal;
-  background-color: #212529;
-}
+  div {
+    max-width: 570px;
+    align-self: normal;
+    background-color: #212529;
+  }
   :first-child {
     padding: 0;
   }
-  .items-header+p {
+  .items-header + ul {
     color: rgba(255, 255, 255, 0.5);
-    text-align: center;
+    text-align: left;
   }
 
   justify-content: center;
   align-items: center;
 
-  display:  flex;
+  display: flex;
   flex-wrap: wrap-reverse;
   margin: 40px 0;
 }
+
 @media only screen and (max-width: 768px) {
   .cooperation .row-item + div {
     text-align: center;
   }
 }
+
+.row.characteristics {
+width: 70%;
+  margin: 0 auto;
+  align-items: center;
+  padding-bottom: 20px;
+  text-align: center;
+  color: white;
+  .icon-item {
+    font-size: 28px;
+    color: #f6a64d;
+    margin: 5px 0;
+  }
+}
+.row.characteristics>div {
+  margin-bottom: 20px;
+}
+

@@ -2,7 +2,19 @@
     <div class="banner">
         <div class="banner-text text-center">
             <h1>Підприємство РЕФАКТ</h1>
-            <ngb-carousel class="text-slider" [interval]="5000" [showNavigationArrows]="false" #slider>
+            <ngb-carousel class="text-slider" [interval]="0" [showNavigationArrows]="false" #slider>
+                <ng-template ngbSlide>
+                    <img src="/assets/images/1px.png">
+                    <div class="carousel-caption">
+                        <h3>Торгівля оптом та в роздріб</h3>
+                    </div>
+                </ng-template>
+                <ng-template ngbSlide>
+                    <img src="/assets/images/1px.png">
+                    <div class="carousel-caption">
+                        <h3>Виготовлення та встановлення сучасних порчунів</h3>
+                    </div>
+                </ng-template>
                 <ng-template ngbSlide>
                     <img src="/assets/images/1px.png">
                     <div class="carousel-caption">
@@ -26,7 +38,36 @@
     </div>
     <div class="container-fluid">
         <div class="row">
-            <h2 class="items-header">Товари і Послуги</h2>
+            <h2 class="items-header">Ваш Вибір!</h2>
+        </div>
+        <div class="row characteristics">
+            <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4">
+                <span class="icon-item fas fa-star"></span>
+                <div>Якість</div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4">
+                <span class="icon-item fab fa-black-tie"></span>
+                <div>Надійність</div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4">
+                <span class="icon-item fas fa-space-shuttle"></span>
+                <div>Оперативність</div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4">
+                <span class="icon-item fas fa-check-double"></span>
+                <div>Відповідальність</div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4">
+                <span class="icon-item fas fa-calendar-check"></span>
+                <div>Гнучкість</div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4">
+                <span class="icon-item fas fa-chart-line"></span>
+                <div>Досвідченість</div>
+            </div>
+        </div>
+        <div class="row">
+            <h2 class="items-header products">Товари і Послуги</h2>
         </div>
 
         <div class="row">
@@ -35,7 +76,8 @@
                     <img class="img__img" [src]='item.payload.val().imgUrl'/>
                     <a [routerLink]="'/products/' + item.key">
                         <div class="img__description_layer">
-                            <p class="img__description">{{item.payload.val().description}}<br><br><i>Клікніть для детального перегляду</i></p>
+                            <p class="img__description">{{item.payload.val().description}}<br><br><i>Клікніть для
+                                детального перегляду</i></p>
                         </div>
                     </a>
                     <div class="p-wrapper">
@@ -51,9 +93,14 @@
             </div>
             <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
                 <h2 class="items-header">Співпраця</h2>
-                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras
-                purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi
-                    vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+                <ul>
+                    <li>Виберіть товар, що Вас цікавить, переглянувши доступні позиції в категорії продукція.</li>
+                    <li>Перетелефонуйте нам за номерами телефонів, вказаних в розділі контакти, чи оформіть замовлення
+                        на сайті.
+                    </li>
+                    <li>В найкоротші терміни Ваше замовлення буде опрацьоване і виконане.</li>
+                    <li>Про стан виконання замовлення Ви будете повідомлені за вказаними даними замовника.</li>
+                </ul>
             </div>
         </div>
     </div>
