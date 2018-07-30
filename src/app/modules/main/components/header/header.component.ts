@@ -40,10 +40,11 @@ export class HeaderComponent implements OnInit {
     onResize(event) {
         if (event.innerWidth > 575) {
             this._isNavbarCollapsedAnim = 'open';
+            this.smallHeaderMobile = false;
             this.isNavbarCollapsed = true;
         } else {
             this._isNavbarCollapsedAnim = 'closed';
-            this.smallHeaderMobile = window.innerWidth <= 576;
+            this.smallHeaderMobile = true;
         }
     }
 
