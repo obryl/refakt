@@ -26,7 +26,7 @@
     </div>
     <div class="container-fluid">
         <div class="row">
-            <h2 class="items-header">ТОВАРИ І ПОСЛУГИ</h2>
+            <h2 class="items-header">Товари і Послуги</h2>
         </div>
 
         <div class="row">
@@ -35,7 +35,7 @@
                     <img class="img__img" [src]='item.payload.val().imgUrl'/>
                     <a [routerLink]="'/products/' + item.key">
                         <div class="img__description_layer">
-                            <p class="img__description" [innerHtml]='item.payload.val().description'></p>
+                            <p class="img__description">{{item.payload.val().description}}<br><br><i>Клікніть для детального перегляду</i></p>
                         </div>
                     </a>
                     <div class="p-wrapper">
@@ -44,18 +44,16 @@
                 </div>
             </div>
         </div>
-        <div class="row ">
-            <h2 class="items-header">СПІВПРАЦЯ</h2>
-        </div>
-        <div class="row cooperation">
-            <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 row-item">
+
+        <div class="cooperation">
+            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6" [ngClass]="{'row-item': correctWidth}">
                 <img src="/assets/images/cooperation.jpg" alt="Generic placeholder image" width="100%">
             </div>
-            <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8">
-                <h5 >Media heading</h5>
-                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras
+            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                <h2 class="items-header">Співпраця</h2>
+                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras
                 purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi
-                vulputate fringilla. Donec lacinia congue felis in faucibus.
+                    vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
             </div>
         </div>
     </div>

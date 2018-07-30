@@ -17,6 +17,11 @@ p {
 
 .carousel-indicators{
 
+li {
+  width: 0.5vmin;
+  height: 0.5vmin;
+  border-radius: 0.25vmin;
+}
   li.active {
     background-color: #f6a64d;
   }

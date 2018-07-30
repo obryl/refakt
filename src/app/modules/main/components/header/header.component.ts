@@ -22,6 +22,8 @@ import {Component, HostListener, OnInit} from '@angular/core';
 export class HeaderComponent implements OnInit {
     isNavbarCollapsed = true;
     _isNavbarCollapsedAnim = 'closed';
+    smallHeader: boolean;
+    smallHeaderMobile: boolean;
 
     constructor() {
     }
@@ -35,14 +37,19 @@ export class HeaderComponent implements OnInit {
     }
 
     @HostListener('window:resize', ['$event.target'])
-
     onResize(event) {
         if (event.innerWidth > 575) {
             this._isNavbarCollapsedAnim = 'open';
             this.isNavbarCollapsed = true;
         } else {
             this._isNavbarCollapsedAnim = 'closed';
+            this.smallHeaderMobile = window.innerWidth <= 576;
         }
+    }
+
+    @HostListener('window:scroll', ['$event'])
+    onWindowScroll() {
+        this.smallHeader = window.pageYOffset > 80 && window.innerWidth > 576;
     }
 
     toggleNavbar(): void {

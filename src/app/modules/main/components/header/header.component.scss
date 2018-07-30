@@ -1,11 +1,22 @@
 .navbar {
-  background-color: rgba(0, 0, 0, .5);
+  background-color: rgba(28, 35, 43, .7);
   height: 11vmin;
   min-height: 40px;
   min-width: 320px;
   width: 100%;
   margin: 0 auto;
 }
+
+.navbar.small {
+  background-color: rgb(28, 35, 43);
+  height: 60px;
+  box-shadow: 0 4px 50px black;
+
+  .brand {
+    height: unset;
+  }
+}
+
 
 .navbar-brand {
   align-self: center;
