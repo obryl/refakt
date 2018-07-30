@@ -1,0 +1,43 @@
+<div class="product-details container-fluid">
+  <div class="d-flex product-header">
+    <div class="product-image col-6 pl-0 pr-3">
+      <img [src]="productDetails?.imgUrl"/>
+    </div>
+    <div class="product-description col-6 ml-3">
+      <h3 class="product-title mb-3">{{productDetails?.title}}</h3>
+      <p [innerHtml]="productDetails?.description"></p>
+    </div>
+  </div>
+  <div class="products-list mt-4">
+    <h4 class="text-center mt-3">Каталог товарів</h4>
+    <table class="table table-hover table-dark">
+      <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">First</th>
+        <th scope="col">Last</th>
+        <th scope="col">Handle</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>Mark</td>
+        <td>Otto</td>
+        <td>@mdo</td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>Jacob</td>
+        <td>Thornton</td>
+        <td>@fat</td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td colspan="2">Larry the Bird</td>
+        <td>@twitter</td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

@@ -2,17 +2,34 @@
 body {
   padding-top: 11vmin;
   padding-bottom: 6vmin;
-  background-color: rgba(3,12,23,0.9);
-  color: #f6a64d;
-  text-align: center;
+  background-color: #222c35;
+  color: #60666c;
   width: 100%;
-  margin: 0 auto;
 }
+
+p {
+  color: #d9dadc;
+}
+
 *:focus {
   outline: none;
 }
+
 .carousel-indicators{
+
   li.active {
     background-color: #f6a64d;
+  }
+}
+
+.table-dark {
+  background-color: rgba(0, 0, 0, 0.2);
+
+  &.table-hover {
+    tbody {
+      tr:hover {
+        background-color: rgba(249, 163, 78, .7);
+      }
+    }
   }
 }

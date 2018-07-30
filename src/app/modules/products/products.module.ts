@@ -3,6 +3,7 @@ import {CommonModule} from '@angular/common';
 import {ProductsComponent} from './container/products.component';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import {ProductsRoutingModule} from './products-routing.module';
+import { ProductDetailsComponent } from './components/product-details/product-details.component';
 
 @NgModule({
     imports: [
@@ -10,7 +11,7 @@ import {ProductsRoutingModule} from './products-routing.module';
       NgbModule,
       ProductsRoutingModule
     ],
-    declarations: [ProductsComponent]
+    declarations: [ProductsComponent, ProductDetailsComponent]
 })
 export class ProductsModule {
 }
