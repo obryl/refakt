@@ -9,8 +9,7 @@ import {Observable} from 'rxjs';
     selector: 'app-homepage',
     templateUrl: './homepage.component.html',
     styleUrls: ['./homepage.component.scss'],
-    animations: [slideInDownAnimation],
-    providers: [FirebaseService]
+    animations: [slideInDownAnimation]
 })
 export class HomepageComponent implements OnInit {
     categories: Observable<AngularFireAction<DatabaseSnapshot<{}>>[]> = this.fbservice.getItems();

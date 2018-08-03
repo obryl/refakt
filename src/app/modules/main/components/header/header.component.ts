@@ -24,7 +24,7 @@ export class HeaderComponent implements OnInit {
     _isNavbarCollapsedAnim = 'closed';
     smallHeader: boolean;
     smallHeaderMobile: boolean;
-
+    navbar;
     constructor() {
     }
 
@@ -52,8 +52,14 @@ export class HeaderComponent implements OnInit {
     onWindowScroll() {
         this.smallHeader = window.pageYOffset > 80 && window.innerWidth > 576;
     }
-
+closeNavbar(event) {
+    if (!this.isNavbarCollapsed && !event.target.className.includes('burger')) {
+        this._isNavbarCollapsedAnim = 'close';
+        this.isNavbarCollapsed = true;
+    }
+}
     toggleNavbar(): void {
+
         if (this.isNavbarCollapsed) {
             this._isNavbarCollapsedAnim = 'open';
             this.isNavbarCollapsed = false;

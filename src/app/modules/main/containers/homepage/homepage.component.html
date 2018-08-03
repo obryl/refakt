@@ -87,7 +87,7 @@
                         </div>
                     </a>
                     <div class="p-wrapper">
-                        <p class="img_title">{{item.payload.val().title}}</p>
+                        <p [routerLink]="'/products/' + item.key" class="img_title">{{item.payload.val().title}}</p>
                     </div>
                 </div>
             </div>

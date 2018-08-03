@@ -14,6 +14,15 @@ p {
 *:focus {
   outline: none;
 }
+@media only screen and (max-width: 576px) {
+  ol.carousel-indicators {
+    li {
+      width: 1vmin;
+      height: 1vmin;
+      border-radius: 1vmin;
+    }
+  }
+}
 
 .carousel-indicators{
 
@@ -37,7 +46,4 @@ li {
       }
     }
   }
-}
-.carousel-caption {
-  transition: all 2s;
 }

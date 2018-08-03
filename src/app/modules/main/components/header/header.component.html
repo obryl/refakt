@@ -1,33 +1,38 @@
-<nav class="navbar navbar-expand-sm navbar-dark fixed-top" [ngClass]="{'small': smallHeader, 'smallMobile': smallHeaderMobile }">
-    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 brand">
-        <a routerLink="/home" class="navbar-brand">"Рефакт"</a>
-        <button class="navbar-toggler" (click)="toggleNavbar()" type="button" aria-controls="theNavbar"
-                aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-    </div>
 
+    <nav class="navbar navbar-expand-sm navbar-dark fixed-top"
+         [ngClass]="{'small': smallHeader, 'smallMobile': smallHeaderMobile }">
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 brand">
+            <a routerLink="/home" class="navbar-brand">"Рефакт"</a>
+            <button class="navbar-toggler burger" (click)="toggleNavbar()" type="button"
+                    aria-controls="theNavbar"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon burger"></span>
+            </button>
+        </div>
 
+        <div [ngbCollapse]="isNavbarCollapsed" id="theNavbar"
+             [@collapse]="isNavbarCollapsedAnim()"
+             class="navbar-collapse collapse navbar-toggleable">
+            <ul class="navbar-nav  ml-auto" [ngClass]="{'mr-auto' : isNavbarCollapsed}" (clickOutside)="closeNavbar($event)">
+                <li class="nav-item">
+                    <a (click)="isNavbarCollapsed=true" class="nav-link" routerLink="/home"
+                       routerLinkActive="active"><span>Про нас</span></a>
+                </li>
+                <li class="nav-item">
+                    <a (click)="isNavbarCollapsed=true" class="nav-link" routerLink="/products"
+                       routerLinkActive="active"><span>Продукція</span></a>
+                </li>
+                <li class="nav-item">
+                    <a (click)="isNavbarCollapsed=true" class="nav-link" routerLink="/delivery"
+                       routerLinkActive="active"><span>Доставка та оплата</span></a>
+                </li>
+                <li class="nav-item">
+                    <a (click)="isNavbarCollapsed=true" class="nav-link" routerLink="/contacts"
+                       routerLinkActive="active"><span>Контакти</span></a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
 
-    <div [ngbCollapse]="isNavbarCollapsed" id="theNavbar"
-         [@collapse]="isNavbarCollapsedAnim()"
-         class="navbar-collapse collapse navbar-toggleable">
-        <ul class="navbar-nav  ml-auto" [ngClass]="{'mr-auto' : isNavbarCollapsed}" >
-            <li class="nav-item">
-                <a (click)="isNavbarCollapsed=true" class="nav-link" routerLink="/home" routerLinkActive="active"><span>Про нас</span></a>
-            </li>
-            <li class="nav-item">
-                <a (click)="isNavbarCollapsed=true" class="nav-link" routerLink="/products" routerLinkActive="active"><span>Продукція</span></a>
-            </li>
-            <li class="nav-item">
-                <a (click)="isNavbarCollapsed=true" class="nav-link" routerLink="/delivery" routerLinkActive="active"><span>Доставка та оплата</span></a>
-            </li>
-            <li class="nav-item">
-                <a (click)="isNavbarCollapsed=true" class="nav-link" routerLink="/contacts" routerLinkActive="active"><span>Контакти</span></a>
-            </li>
-        </ul>
-    </div>
-<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
-
-</div>
-</nav>
+        </div>
+    </nav>
