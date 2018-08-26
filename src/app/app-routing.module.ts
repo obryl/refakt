@@ -28,7 +28,12 @@ const routes: Routes = [
         loadChildren: 'app/modules/products/products.module#ProductsModule'
 
     },
-    {path: '**', redirectTo: ''}
+    {
+        path: 'admin',
+        loadChildren: 'app/modules/admin/admin.module#AdminModule'
+
+    },
+    {path: '**', redirectTo: 'home'}
 ];
 
 @NgModule({
