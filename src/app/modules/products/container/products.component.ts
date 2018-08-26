@@ -1,6 +1,8 @@
 import {AngularFireDatabase} from 'angularfire2/database';
 import {Component, HostBinding, OnInit} from '@angular/core';
 import {slideInDownAnimation} from '../../../animations';
+import {map} from 'rxjs/operators';
+import {ProductsService} from '../services/products.service';
 
 @Component({
     selector: 'app-products',
@@ -12,7 +14,9 @@ export class ProductsComponent implements OnInit {
 
     categories: any[] = [];
 
-    constructor(private db: AngularFireDatabase) {
+    constructor(
+      private productsService: ProductsService
+    ) {
     }
 
     @HostBinding('@routeAnimation') routeAnimation = true;
@@ -20,7 +24,8 @@ export class ProductsComponent implements OnInit {
 
 
     ngOnInit() {
-        this.db.list('/categories').valueChanges().subscribe((categories) => {
+        this.productsService.getList()
+          .subscribe((categories) => {
             this.categories = categories;
         });
     }
