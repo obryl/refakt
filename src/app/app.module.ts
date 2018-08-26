@@ -14,6 +14,7 @@ import {DeliveryComponent} from './modules/main/containers/delivery/delivery.com
 import {ContactsComponent} from './modules/main/containers/contacts/contacts.component';
 import {FirebaseService} from './core/services/firebase.service';
 import {AngularFireStorageModule} from 'angularfire2/storage';
+import {ClickOutsideModule} from 'ng-click-outside';
 
 @NgModule({
     declarations: [
@@ -31,7 +32,8 @@ import {AngularFireStorageModule} from 'angularfire2/storage';
         AngularFireStorageModule,
         NgbModule.forRoot(),
         BrowserAnimationsModule,
-        AppRoutingModule
+        AppRoutingModule,
+        ClickOutsideModule
     ],
     providers: [FirebaseService],
     bootstrap: [AppComponent]

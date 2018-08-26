@@ -1,7 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 body {
-  padding-top: 12vmin;
-  padding-bottom: 12vmin;
+  padding-top: 11vmin;
+  padding-bottom: 6vmin;
   background-color: #222c35;
   color: #60666c;
   width: 100%;
@@ -14,8 +14,23 @@ p {
 *:focus {
   outline: none;
 }
+@media only screen and (max-width: 576px) {
+  ol.carousel-indicators {
+    li {
+      width: 1vmin;
+      height: 1vmin;
+      border-radius: 1vmin;
+    }
+  }
+}
+
 .carousel-indicators{
 
+li {
+  width: 0.5vmin;
+  height: 0.5vmin;
+  border-radius: 0.25vmin;
+}
   li.active {
     background-color: #f6a64d;
   }

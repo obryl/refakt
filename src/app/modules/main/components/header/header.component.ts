@@ -22,7 +22,9 @@ import {Component, HostListener, OnInit} from '@angular/core';
 export class HeaderComponent implements OnInit {
     isNavbarCollapsed = true;
     _isNavbarCollapsedAnim = 'closed';
-
+    smallHeader: boolean;
+    smallHeaderMobile: boolean;
+    navbar;
     constructor() {
     }
 
@@ -38,13 +40,26 @@ export class HeaderComponent implements OnInit {
     onResize(event) {
         if (event.innerWidth > 575) {
             this._isNavbarCollapsedAnim = 'open';
+            this.smallHeaderMobile = false;
             this.isNavbarCollapsed = true;
         } else {
             this._isNavbarCollapsedAnim = 'closed';
+            this.smallHeaderMobile = true;
         }
     }
 
+    @HostListener('window:scroll', ['$event'])
+    onWindowScroll() {
+        this.smallHeader = window.pageYOffset > 80 && window.innerWidth > 576;
+    }
+closeNavbar(event) {
+    if (!this.isNavbarCollapsed && !event.target.className.includes('burger')) {
+        this._isNavbarCollapsedAnim = 'close';
+        this.isNavbarCollapsed = true;
+    }
+}
     toggleNavbar(): void {
+
         if (this.isNavbarCollapsed) {
             this._isNavbarCollapsedAnim = 'open';
             this.isNavbarCollapsed = false;
