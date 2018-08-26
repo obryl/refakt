@@ -1,19 +1,49 @@
 /* You can add global styles to this file, and also import other style files */
 body {
-  padding-top: 12vmin;
-  padding-bottom: 12vmin;
-  background-image: url(assets/images/bg1.jpg);
-  color: #f6a64d;
-  text-align: center;
+  padding-top: 11vmin;
+  padding-bottom: 6vmin;
+  background-color: #222c35;
+  color: #60666c;
   width: 100%;
-  margin: 0 auto;
 }
+
+p {
+  color: #d9dadc;
+}
+
 *:focus {
   outline: none;
 }
+@media only screen and (max-width: 576px) {
+  ol.carousel-indicators {
+    li {
+      width: 1vmin;
+      height: 1vmin;
+      border-radius: 1vmin;
+    }
+  }
+}
+
 .carousel-indicators{
 
+li {
+  width: 0.5vmin;
+  height: 0.5vmin;
+  border-radius: 0.25vmin;
+}
   li.active {
     background-color: #f6a64d;
+  }
+}
+
+.table-dark {
+  background-color: rgba(0, 0, 0, 0.2);
+
+  &.table-hover {
+    tbody {
+      tr:hover {
+        background-color: rgba(249, 163, 78, .7);
+      }
+    }
   }
 }
