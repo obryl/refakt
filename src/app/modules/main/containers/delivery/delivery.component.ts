@@ -10,7 +10,7 @@ import {FirebaseService} from '../../../../core/services/firebase.service';
     animations: [slideInDownAnimation]
 })
 export class DeliveryComponent implements OnInit {
-
+location;
     @HostBinding('@routeAnimation') routeAnimation = true;
     @HostBinding('style.display') display = 'block';
 
@@ -18,6 +18,12 @@ export class DeliveryComponent implements OnInit {
     }
 
     ngOnInit() {
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(position => {
+                this.location = position.coords;
+                console.log(this.location);
+            });
+        }
     }
 
 }
