@@ -3,8 +3,7 @@ import {RouterModule, Routes} from '@angular/router';
 import {LoginComponent} from './components/login/login.component';
 import {AdminGuard} from './guards/admin.guard';
 import {MainComponent} from './components/main/main.component';
-
-
+import {ProductDetailsComponent} from './components/product-details/product-details.component';
 
 const routes: Routes = [
     {
@@ -17,6 +16,11 @@ const routes: Routes = [
         component: MainComponent,
         children: [],
         canActivate: [AdminGuard]
+    },
+    {
+      path: 'products/:productId',
+      component: ProductDetailsComponent,
+      children: []
     },
     {path: '**', redirectTo: 'login'}
 ];

@@ -2,10 +2,9 @@
   <h1>Categories List</h1>
   <div *ngFor="let category of categories">
     <div class="category-desc">
-      <h6><a>{{category.title}}</a></h6>
-      <span *ngFor="let product of category.products; let i = index">
-        {{product.name}}<i *ngIf="i !== category.products.length - 1">,</i>
-      </span>
+      <h6>
+        <a [routerLink]="'/admin/products/' + category.id">{{category.title}}</a>
+      </h6>
     </div>
   </div>
 </div>
