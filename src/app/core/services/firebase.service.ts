@@ -9,8 +9,11 @@ import {AngularFireStorage} from 'angularfire2/storage';
 export class FirebaseService {
     itemsRef: AngularFireList<any>;
     items: Observable<any[]>;
+    mapInit = false;
     constructor(private db: AngularFireDatabase, private fbstorage: AngularFireStorage) {
     }
+
+
 
     makeid() {
         let text = '';

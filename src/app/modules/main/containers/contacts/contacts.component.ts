@@ -2,6 +2,7 @@ import {Component, HostBinding, OnInit, ViewChild} from '@angular/core';
 import {slideInDownAnimation} from '../../../../animations';
 import {} from '@types/googlemaps';
 import MapOptions = google.maps.MapOptions;
+import {FirebaseService} from '../../../../core/services/firebase.service';
 
 const url = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyCQEo-J310OGu7SJr-YiGDYxhS8c_IVzpg&language=uk&region=UA&callback=initialize';
 
@@ -18,25 +19,30 @@ export class ContactsComponent implements OnInit {
     @HostBinding('@routeAnimation') routeAnimation = true;
     @HostBinding('style.display') display = 'block';
 
+    constructor (private fbservice: FirebaseService ) {}
+
     loadAPI: Promise<any>;
     map;
     infowindow;
 
-    constructor() {
-    }
 
     ngOnInit() {
-        this.loadAPI = new Promise((resolve) => {
-            this.loadScript();
-            window['initialize'] = _ => {
-                resolve(true);
-            };
-        });
-        this.loadAPI.then(result => {
-            if (result) {
-                this.initialize();
-            }
-        });
+        if (!this.fbservice.mapInit) {
+            this.loadAPI = new Promise((resolve) => {
+                this.loadScript();
+                window['initialize'] = _ => {
+                    resolve(true);
+                };
+            });
+            this.loadAPI.then(result => {
+                if (result) {
+                    this.initialize();
+                    this.fbservice.mapInit = true;
+                }
+            });
+        } else {
+            this.initialize();
+        }
 
     }
 

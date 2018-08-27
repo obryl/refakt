@@ -18,12 +18,6 @@ location;
     }
 
     ngOnInit() {
-        if (navigator.geolocation) {
-            navigator.geolocation.getCurrentPosition(position => {
-                this.location = position.coords;
-                console.log(this.location);
-            });
-        }
     }
 
 }
