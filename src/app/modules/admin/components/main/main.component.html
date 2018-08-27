@@ -1,0 +1,10 @@
+<div class="categories-list">
+  <h1>Categories List</h1>
+  <div *ngFor="let category of categories">
+    <div class="category-desc">
+      <h6>
+        <a [routerLink]="'/admin/products/' + category.id">{{category.title}}</a>
+      </h6>
+    </div>
+  </div>
+</div>

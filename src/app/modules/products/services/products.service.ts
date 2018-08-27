@@ -21,9 +21,16 @@ export class ProductsService {
 
   getItem(itemId: string) {
     return this.db.object(`/categories/${itemId}`).snapshotChanges().pipe(map((category) => {
-      const data = category.payload.val();
+      const data = category.payload.val() as any;
       const id = category.key;
+      if (data.products) {
+        data.products = Object.values(data.products);
+      }
       return { id, ...data };
     }));
+  }
+
+  addProductToCategory(itemId: string, product) {
+    return this.db.list(`/categories/${itemId}/products`).push(product);
   }
 }
