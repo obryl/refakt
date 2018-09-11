@@ -47,3 +47,6 @@ li {
     }
   }
 }
+.gmnoprint, .gm-control-active.gm-fullscreen-control {
+  display:none !important;
+}
