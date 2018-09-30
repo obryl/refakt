@@ -1,11 +1,5 @@
 .row, .container-fluid {
-
   padding: 0;
-}
-
-.bgimage {
-  background-image: url('/assets/images/patterns-steel-00408703.jpg');
-
 }
 
 .items-header {
@@ -18,17 +12,26 @@
 
 }
 
+.fa-map-marker-alt+span {
+  letter-spacing: -0.2px;
+}
+
+.contactForm {
+  flex: 0 0 70%;
+  max-width: 70%;
+}
+
 .small {
   font-size: 3vmin;
 }
 
 .contacts-wrap {
-  width: 100%;
+  width: 30%;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   padding-bottom: 10px;
   .contacts {
-
+    padding: 0 10px;
     .icon {
       color: #f9a34e;
       margin-right: 20px;
@@ -49,14 +52,15 @@
 
 #googleMap {
   width: 100%;
-  height: 70vmin;
+  height: 60vmin;
   background-color: #222c35;
   margin-top: -11vmin;
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 640px) {
   .contacts-wrap, #googleMap {
     width: 100%;
+    justify-content: center;
   }
   .small {
     font-size: 16px;

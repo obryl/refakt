@@ -14,6 +14,9 @@ import {ContactsComponent} from './modules/main/containers/contacts/contacts.com
 import {FirebaseService} from './core/services/firebase.service';
 import {AngularFireStorageModule} from 'angularfire2/storage';
 import {ClickOutsideModule} from 'ng-click-outside';
+import {AngularFireFunctionsModule} from 'angularfire2/functions';
+import { ReactiveFormsModule } from '@angular/forms';
+import { ContactFormComponent } from './modules/main/components/contact-form/contact-form.component';
 
 @NgModule({
     declarations: [
@@ -21,17 +24,20 @@ import {ClickOutsideModule} from 'ng-click-outside';
         HeaderComponent,
         HomepageComponent,
         DeliveryComponent,
-        ContactsComponent
+        ContactsComponent,
+        ContactFormComponent,
     ],
     imports: [
         BrowserModule,
         AngularFireModule.initializeApp(environment.firebase),
         AngularFireDatabaseModule,
         AngularFireStorageModule,
+        AngularFireFunctionsModule,
         NgbModule.forRoot(),
         BrowserAnimationsModule,
         AppRoutingModule,
-        ClickOutsideModule
+        ClickOutsideModule,
+        ReactiveFormsModule
     ],
     providers: [FirebaseService],
     bootstrap: [AppComponent]
