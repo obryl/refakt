@@ -1,11 +1,11 @@
-<div class="product-details container-fluid">
+<div *ngIf="productDetails" class="product-details container-fluid">
   <div class="d-flex product-header">
-    <div class="product-image col-6 pl-0 pr-3">
-      <img [src]="productDetails?.imgUrl"/>
+    <div class="product-image col-6">
+      <img [src]="productDetails.imgUrl"/>
     </div>
-    <div class="product-description col-6 ml-3">
-      <h3 class="product-title mb-3">{{productDetails?.title}}</h3>
-      <p [innerHtml]="productDetails?.description"></p>
+    <div class="product-description col-6">
+      <h3 class="product-title mb-3">{{productDetails.title}}</h3>
+      <p [innerHtml]="productDetails.description"></p>
     </div>
   </div>
   <div class="products-list mt-4">
@@ -19,7 +19,7 @@
       </tr>
       </thead>
       <tbody>
-      <tr *ngFor="let item of productDetails?.products">
+      <tr *ngFor="let item of productDetails.products">
         <td>{{item.Name}}</td>
         <td>{{item.Description}}</td>
         <td>{{item.Price}}</td>

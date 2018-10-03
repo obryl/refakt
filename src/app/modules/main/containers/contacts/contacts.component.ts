@@ -5,9 +5,7 @@ import MapOptions = google.maps.MapOptions;
 import {FirebaseService} from '../../../../core/services/firebase.service';
 import {AngularFireFunctions} from 'angularfire2/functions';
 
-
 const url = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyCQEo-J310OGu7SJr-YiGDYxhS8c_IVzpg&language=uk&region=UA&callback=initialize';
-
 
 @Component({
     selector: 'app-contacts',
@@ -21,7 +19,7 @@ export class ContactsComponent implements OnInit {
     @HostBinding('@routeAnimation') routeAnimation = true;
     @HostBinding('style.display') display = 'block';
 
-    constructor(private fbservice: FirebaseService, private firefunc: AngularFireFunctions) {
+    constructor(private fbservice: FirebaseService) {
     }
 
     loadAPI: Promise<any>;
@@ -32,7 +30,7 @@ export class ContactsComponent implements OnInit {
         if (!this.fbservice.mapInit) {
             this.loadAPI = new Promise((resolve) => {
                 this.loadScript();
-                window['initialize'] = _ => {
+                window['initialize'] = () => {
                     resolve(true);
                 };
             });
@@ -56,7 +54,6 @@ export class ContactsComponent implements OnInit {
     }
 
     initialize() {
-
         const mapProp: MapOptions = {
             center: new google.maps.LatLng(48.922469, 24.715243),
             zoom: 15,
@@ -173,6 +170,4 @@ export class ContactsComponent implements OnInit {
         });
         marker.addListener('click', openMarker);
     }
-
-
 }
