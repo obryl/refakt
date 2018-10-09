@@ -1,5 +1,5 @@
 import {Component, HostBinding, HostListener, OnInit} from '@angular/core';
-
+import {Title} from '@angular/platform-browser';
 import {slideInDownAnimation} from '../../../../animations';
 import {FirebaseService} from '../../../../core/services/firebase.service';
 
@@ -19,10 +19,12 @@ export class DeliveryComponent implements OnInit {
         this.correctWidth = window.innerWidth < 786;
     }
 
-    constructor(public fbservice: FirebaseService) {
+    constructor(public fbservice: FirebaseService, private title: Title) {
+      this.title.setTitle( 'ПП"Рефакт" | Доставка та оплата' );
     }
 
     ngOnInit() {
+
     }
 
 }

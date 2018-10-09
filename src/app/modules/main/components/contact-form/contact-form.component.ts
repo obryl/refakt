@@ -38,7 +38,7 @@ export class ContactFormComponent implements OnInit {
     this.loading = false;
     this.sendErr = false;
     this.contactForm.valueChanges.pipe(
-      debounceTime(2000)
+      debounceTime(500)
     ).subscribe(
       () => {
         this.wrongSubmit = false;
@@ -75,15 +75,15 @@ export class ContactFormComponent implements OnInit {
         this.loading = false;
         this.sendErr = false;
         this.contactForm.reset();
-      }, 2000
+      }, 1000
     );
   }
 
   send() {
     this.wrongSubmit = this.requiredErr;
-    this.loading = true;
 
     if (!this.contactForm.invalid) {
+      this.loading = true;
       this.contactForm.value.date = this.calcTime('+3');
       this.sendMail(this.contactForm.value).pipe(
         take(1)

@@ -3,7 +3,7 @@ import {slideInDownAnimation} from '../../../../animations';
 import {} from '@types/googlemaps';
 import MapOptions = google.maps.MapOptions;
 import {FirebaseService} from '../../../../core/services/firebase.service';
-import {AngularFireFunctions} from 'angularfire2/functions';
+import {Title} from '@angular/platform-browser';
 
 const url = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyCQEo-J310OGu7SJr-YiGDYxhS8c_IVzpg&language=uk&region=UA&callback=initialize';
 
@@ -19,7 +19,8 @@ export class ContactsComponent implements OnInit {
     @HostBinding('@routeAnimation') routeAnimation = true;
     @HostBinding('style.display') display = 'block';
 
-    constructor(private fbservice: FirebaseService) {
+    constructor(private fbservice: FirebaseService, private title: Title) {
+      this.title.setTitle( 'ПП"Рефакт" | Контактні дані та зворотній зв\'язок' );
     }
 
     loadAPI: Promise<any>;

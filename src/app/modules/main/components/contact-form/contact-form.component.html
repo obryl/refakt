@@ -1,49 +1,55 @@
 <div *ngIf="loading" class="response">
-    <img src="/assets/images/spinner.gif">
+  <img src="/assets/images/spinner.gif">
 </div>
 <div *ngIf="sendSuccess" class="response">
-    <h1>Повідомлення успішно відправлено</h1>
-    <p>Ми зв'яжемося з Вами за лічені хвилини</p>
-    <button class="again" (click)="resetForm()">Повторно відправити</button>
+  <h1>Повідомлення успішно відправлено</h1>
+  <p>Ми зв'яжемося з Вами за лічені хвилини</p>
+  <button class="again" (click)="resetForm()">Повторно відправити</button>
 </div>
 <div *ngIf="sendErr" class="response">
-    <h1>Щось пішло не так</h1>
-    <button class="again" (click)="resetForm()">Повторно відправити</button>
+  <h1>Щось пішло не так</h1>
+  <button class="again" (click)="resetForm()">Повторно відправити</button>
 </div>
-<form *ngIf="!loading && !sendErr && !sendSuccess" class="contactForm container-fluid" [formGroup]="contactForm" (ngSubmit)="send()">
-    <div class="row">
-        <H2 class="items-header small">Відправте нам повідомлення</H2>
-        <div class="col-sm-12 col-md-6 col-lg-6">
-            <label for="name" [ngClass]="{'active': nameAct || name.value !== ''}">Ім'я</label>
-            <input #name (blur)="nameAct = false" (focus)="nameAct = true" id="name" type="text" formControlName="name">
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-6">
-            <div [ngClass]="{'visible':phoneErr}" class="error">
-                <p>Введіть будь ласка дійсний телефон</p>
-            </div>
-            <label for="phone" [ngClass]="{'active': phoneAct || phone.value !== ''}">Номер телефону</label>
-            <input #phone (blur)="phoneAct = false" (focus)="phoneAct = true" id="phone" type="text" formControlName="phone">
-        </div>
-        <div class="col-sm-12 col-md-12 col-lg-12">
-            <div [ngClass]="{'visible':emailErr}" class="error">
-                <p>Введіть будь ласка коректний email</p>
-            </div>
-            <label for="email" [ngClass]="{'active': emailAct || email.value !== ''}">Електронна скринька</label>
-            <input #email (blur)="emailAct = false" (focus)="emailAct = true" id="email" type="text" formControlName="email">
-        </div>
-        <div class="col-sm-12 col-md-12 col-lg-12">
-
-            <label for="message" [ngClass]="{'active': messageAct || message.value !== ''}">Повідомлення</label>
-            <textarea #message (blur)="messageAct = false" (focus)="messageAct = true" id="message" class="col-sm-12 col-md-12 col-lg-12" type="text"
-                      formControlName="message"></textarea>
-        </div>
-        <div class="col-sm-12 col-md-12 col-lg-12">
-            <div [ngClass]="{'visible':requiredErr && wrongSubmit}" class="error">
-                <p> Заповніть будь ласка всі поля</p>
-            </div>
-            <button type="submit" [ngClass]="{'invalid':contactForm.invalid}">Відправити</button>
-        </div>
+<form *ngIf="!loading && !sendErr && !sendSuccess"
+  (keydown.enter)="contactForm.invalid? $event.preventDefault() : send()"
+  class="contactForm container-fluid" [formGroup]="contactForm" (ngSubmit)="send()">
+  <div class="row">
+    <H2 class="items-header small">Відправте нам повідомлення</H2>
+    <div class="col-sm-12 col-md-6 col-lg-6">
+      <label for="name" [ngClass]="{'active': nameAct || name.value !== ''}">Ім'я</label>
+      <input #name (blur)="nameAct = false" (focus)="nameAct = true" id="name" type="text" formControlName="name">
     </div>
-
-
+    <div class="col-sm-12 col-md-6 col-lg-6">
+      <div [ngClass]="{'visible':phoneErr}" class="error">
+        <p>Введіть будь ласка дійсний телефон</p>
+      </div>
+      <label for="phone" [ngClass]="{'active': phoneAct || phone.value !== ''}">Номер телефону</label>
+      <input #phone (blur)="phoneAct = false" (focus)="phoneAct = true" id="phone" type="text" formControlName="phone">
+    </div>
+    <div class="col-sm-12 col-md-12 col-lg-12">
+      <div [ngClass]="{'visible':emailErr}" class="error">
+        <p>Введіть будь ласка коректний email</p>
+      </div>
+      <label for="email" [ngClass]="{'active': emailAct || email.value !== ''}">Електронна скринька</label>
+      <input #email (blur)="emailAct = false" (focus)="emailAct = true" id="email" type="text" formControlName="email">
+    </div>
+    <div class="col-sm-12 col-md-12 col-lg-12">
+      <label for="message" [ngClass]="{'active': messageAct || message.value !== ''}">Повідомлення</label>
+      <textarea #message
+        (blur)="messageAct = false"
+        (focus)="messageAct = true"
+        id="message"
+        class="col-sm-12 col-md-12 col-lg-12"
+        type="text"
+        formControlName="message"></textarea>
+    </div>
+    <div class="col-sm-12 col-md-12 col-lg-12">
+      <div [ngClass]="{'visible':requiredErr && wrongSubmit}" class="error">
+        <p> Заповніть будь ласка всі поля</p>
+      </div>
+      <button type="submit" [ngClass]="{'invalid':contactForm.invalid}">Відправити
+      </button>
+    </div>
+  </div>
 </form>
+

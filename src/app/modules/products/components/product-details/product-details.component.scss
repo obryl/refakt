@@ -7,7 +7,6 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-
     .product-image {
       min-width: 300px;
       img {
@@ -19,6 +18,26 @@
   .products-list {
     min-width: 700px;
     padding: 0 15px;
+    table {
+      td:first-child, th:first-child {
+        padding-left: 35px;
+        text-align: left;
+      }
+      th {
+        text-align: center;
+      }
+      td, th {
+        text-align: center;
+        width: 33%;
+      }
+    }
+    .nav-link {
+      color: #f9a34e;
+      cursor: pointer;
+    }
+    .nav-link.active {
+      color: #ff762e;
+    }
   }
 
 }

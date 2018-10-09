@@ -5,6 +5,15 @@
   min-width: 320px;
   width: 100%;
   margin: 0 auto;
+
+  .brand {
+    justify-content: center;
+    padding-left: 0;
+    img {
+      width: 100%;
+      max-width: 150px;
+    }
+  }
 }
 
 .navbar.small {
@@ -12,14 +21,21 @@
   height: 60px;
   box-shadow: 0 2px 10px black;
 
-  .brand {
-    height: unset;
-  }
+
 }
 
 .navbar.smallMobile {
   box-shadow: 0 4px 50px black;
   background-color: #1c232b;
+
+  .brand {
+    justify-content: space-between;
+    padding-left: 0;
+    img {
+      width: 70%;
+    }
+  }
+
 }
 
 .navbar-brand {
