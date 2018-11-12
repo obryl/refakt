@@ -76,17 +76,17 @@
     </div>
 
     <div class="row">
-        <div *ngFor="let item of categories | async" class="row-item col-sm-12 col-md-4 col-lg-4 col-xl-4">
+        <div *ngFor="let item of categories | async" [routerLink]="'/products/' + item.key" class="row-item col-sm-12 col-md-4 col-lg-4 col-xl-4">
             <div class="img__wrap">
                 <img class="img__img" [src]='item.payload.val().imgUrl'/>
-                <a [routerLink]="'/products/' + item.key">
+                <a>
                     <div class="img__description_layer">
                         <p class="img__description">{{item.payload.val().description}}<br><br><i>Клікніть для
                             детального перегляду</i></p>
                     </div>
                 </a>
                 <div class="p-wrapper">
-                    <p [routerLink]="'/products/' + item.key" class="img_title">{{item.payload.val().title}}</p>
+                    <p class="img_title">{{item.payload.val().title}}</p>
                 </div>
             </div>
         </div>

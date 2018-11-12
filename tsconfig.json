@@ -15,8 +15,10 @@
       "es2017",
       "dom"
     ],
+
     "types": [
       "googlemaps"
     ]
   }
 }
+

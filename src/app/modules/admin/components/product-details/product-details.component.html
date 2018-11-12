@@ -22,7 +22,7 @@
       <tr>
         <th scope="col">Назва</th>
         <th scope="col">Деталі</th>
-        <th scope="col">Ціна</th>
+        <th scope="col">Одиниці виміру</th>
       </tr>
       </thead>
       <tbody>
@@ -36,14 +36,14 @@
     </table>
   </div>
   <h2 class="text-center mt-3">Додати новий продукт до категорії</h2>
-  <form class="form">
-    <input class="form-control" [(ngModel)]="newItem.Name" [ngModelOptions]="{standalone: true}"
+  <form [formGroup]="newItem" class="form" (ngSubmit)="addNew()">
+    <input class="form-control" formControlName="Name"
            placeholder="Назва"/>
-    <input class="form-control" [(ngModel)]="newItem.Description" [ngModelOptions]="{standalone: true}"
+    <input class="form-control" formControlName="Description"
            placeholder="Деталі"/>
-    <input class="form-control" [(ngModel)]="newItem.Price" [ngModelOptions]="{standalone: true}"
+    <input class="form-control" formControlName="Price"
            placeholder="Ціна"/>
-    <button class="add-new btn btn-outline-success" (click)="addNew()">Додати продукт</button>
+    <button type="submit" class="add-new btn btn-outline-success">Додати продукт</button>
   </form>
 
 </div>

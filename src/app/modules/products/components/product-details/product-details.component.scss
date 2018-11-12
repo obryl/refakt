@@ -1,14 +1,28 @@
+
 .product-details {
   padding-top: 15px;
   padding-bottom: 15px;
   max-width: 1000px;
 
+  .product-description {
+    text-align: center;
+  }
+
+  .product-title {
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    font-weight: 300;
+  }
+
   .product-header {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+
     .product-image {
       min-width: 300px;
+
       img {
         width: 100%;
       }
@@ -18,23 +32,34 @@
   .products-list {
     min-width: 700px;
     padding: 0 15px;
+
     table {
       td:first-child, th:first-child {
         padding-left: 35px;
         text-align: left;
       }
+
       th {
         text-align: center;
       }
+
       td, th {
         text-align: center;
-        width: 33%;
+        width: 25%;
       }
+
+      td:nth-child(2) {
+        width: 50%;
+      }
+
     }
+
     .nav-link {
       color: #f9a34e;
       cursor: pointer;
+      border-radius: 0.25rem;
     }
+
     .nav-link.active {
       color: #ff762e;
     }

@@ -21,6 +21,9 @@
   height: 60px;
   box-shadow: 0 2px 10px black;
 
+  .brand {
+    align-self: center;
+  }
 
 }
 
@@ -98,7 +101,7 @@ ul.navbar-nav.mr-auto.ml-auto {
 .show ul {
   background: rgba(0, 0, 0, 0.8);
   border-radius: 4px;
-  width: 167px;
+  width: 175px;
   padding: 0 10px;
   margin-top: 10px;
   margin-right: 14px;
