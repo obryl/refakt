@@ -17,6 +17,7 @@ import {ClickOutsideModule} from 'ng-click-outside';
 import {AngularFireFunctionsModule} from 'angularfire2/functions';
 import { ReactiveFormsModule } from '@angular/forms';
 import { ContactFormComponent } from './modules/main/components/contact-form/contact-form.component';
+import {Title} from '@angular/platform-browser';
 
 @NgModule({
     declarations: [
@@ -39,7 +40,7 @@ import { ContactFormComponent } from './modules/main/components/contact-form/con
         ClickOutsideModule,
         ReactiveFormsModule
     ],
-    providers: [FirebaseService],
+    providers: [FirebaseService, Title],
     bootstrap: [AppComponent]
 })
 export class AppModule {

@@ -3,6 +3,7 @@ import {slideInDownAnimation} from '../../../../animations';
 import {FirebaseService} from '../../../../core/services/firebase.service';
 import {AngularFireAction, DatabaseSnapshot} from 'angularfire2/database';
 import {Observable} from 'rxjs';
+import {Title} from '@angular/platform-browser';
 
 
 @Component({
@@ -22,7 +23,8 @@ export class HomepageComponent implements OnInit {
         this.correctWidth = window.innerWidth < 786;
     }
 
-    constructor(public fbservice: FirebaseService) {
+    constructor(public fbservice: FirebaseService, private title: Title) {
+      this.title.setTitle( 'ПП"Рефакт" | Кольоровий та нержавіючий металопрокат. Виготовлення та монтаж поручнів' );
     }
 
     ngOnInit() {

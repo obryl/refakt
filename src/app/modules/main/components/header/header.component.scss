@@ -5,6 +5,15 @@
   min-width: 320px;
   width: 100%;
   margin: 0 auto;
+
+  .brand {
+    justify-content: center;
+    padding-left: 0;
+    img {
+      width: 100%;
+      max-width: 150px;
+    }
+  }
 }
 
 .navbar.small {
@@ -13,13 +22,23 @@
   box-shadow: 0 2px 10px black;
 
   .brand {
-    height: unset;
+    align-self: center;
   }
+
 }
 
 .navbar.smallMobile {
   box-shadow: 0 4px 50px black;
   background-color: #1c232b;
+
+  .brand {
+    justify-content: space-between;
+    padding-left: 0;
+    img {
+      width: 70%;
+    }
+  }
+
 }
 
 .navbar-brand {
@@ -82,7 +101,7 @@ ul.navbar-nav.mr-auto.ml-auto {
 .show ul {
   background: rgba(0, 0, 0, 0.8);
   border-radius: 4px;
-  width: 167px;
+  width: 175px;
   padding: 0 10px;
   margin-top: 10px;
   margin-right: 14px;
