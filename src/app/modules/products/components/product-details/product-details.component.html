@@ -4,15 +4,15 @@
             <img [src]="productDetails?.imgUrl"/>
         </div>
         <div class="product-description col-6 ">
-            <h3 class="product-title mb-3">{{productDetails.title}}</h3>
+            <h1 class="product-title mb-3">{{productDetails.title}}</h1>
             <p [innerHtml]="productDetails?.description"></p>
         </div>
     </div>
-    <h4 class="product-title mt-3">Каталог товарів</h4>
-    <div *ngIf="productDetails.id !== '-LIG-m3bs1kJ4iw9P8w5'" class="products-list">
+    <h2 *ngIf="keys(products).length > 0" class="product-title mt-3">Каталог товарів</h2>
+    <div *ngIf="keys(products).length > 0" class="products-list">
         <ul class="nav nav-tabs">
             <li class="nav-item" *ngFor="let name of keys(products); let i = index">
-                <a class="nav-link" (click)="activeTab = i" [ngClass]="{active: activeTab === i}">{{name}}</a>
+                <h2 class="nav-link" (click)="activeTab = i" [ngClass]="{active: activeTab === i}">{{name}}</h2>
             </li>
         </ul>
         <table   class="table table-hover table-dark">

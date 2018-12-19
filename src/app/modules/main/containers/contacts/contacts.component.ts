@@ -20,7 +20,7 @@ export class ContactsComponent implements OnInit {
     @HostBinding('style.display') display = 'block';
 
     constructor(private fbservice: FirebaseService, private title: Title) {
-      this.title.setTitle( 'ПП"Рефакт" | Контактні дані та зворотній зв\'язок' );
+      this.title.setTitle( 'ПП "Рефакт" | Контактні дані та зворотній зв\'язок' );
     }
 
     loadAPI: Promise<any>;

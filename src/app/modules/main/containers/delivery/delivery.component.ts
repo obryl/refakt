@@ -20,7 +20,7 @@ export class DeliveryComponent implements OnInit {
   }
 
   constructor(public fbservice: FirebaseService, private title: Title) {
-    this.title.setTitle('ПП"Рефакт" | Доставка та оплата');
+    this.title.setTitle('ПП "Рефакт" м.Івано-Франківськ | Доставка та оплата');
   }
 
   ngOnInit() {

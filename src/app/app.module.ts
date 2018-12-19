@@ -15,33 +15,33 @@ import {FirebaseService} from './core/services/firebase.service';
 import {AngularFireStorageModule} from 'angularfire2/storage';
 import {ClickOutsideModule} from 'ng-click-outside';
 import {AngularFireFunctionsModule} from 'angularfire2/functions';
-import { ReactiveFormsModule } from '@angular/forms';
-import { ContactFormComponent } from './modules/main/components/contact-form/contact-form.component';
+import {ReactiveFormsModule} from '@angular/forms';
+import {ContactFormComponent} from './modules/main/components/contact-form/contact-form.component';
 import {Title} from '@angular/platform-browser';
 
 @NgModule({
-    declarations: [
-        AppComponent,
-        HeaderComponent,
-        HomepageComponent,
-        DeliveryComponent,
-        ContactsComponent,
-        ContactFormComponent,
-    ],
-    imports: [
-        BrowserModule,
-        AngularFireModule.initializeApp(environment.firebase),
-        AngularFireDatabaseModule,
-        AngularFireStorageModule,
-        AngularFireFunctionsModule,
-        NgbModule.forRoot(),
-        BrowserAnimationsModule,
-        AppRoutingModule,
-        ClickOutsideModule,
-        ReactiveFormsModule
-    ],
-    providers: [FirebaseService, Title],
-    bootstrap: [AppComponent]
+  declarations: [
+    AppComponent,
+    HeaderComponent,
+    HomepageComponent,
+    DeliveryComponent,
+    ContactsComponent,
+    ContactFormComponent,
+  ],
+  imports: [
+    BrowserModule,
+    AngularFireModule.initializeApp(environment.firebase),
+    AngularFireDatabaseModule,
+    AngularFireStorageModule,
+    AngularFireFunctionsModule,
+    NgbModule.forRoot(),
+    BrowserAnimationsModule,
+    AppRoutingModule,
+    ClickOutsideModule,
+    ReactiveFormsModule
+  ],
+  providers: [FirebaseService, Title],
+  bootstrap: [AppComponent]
 })
 export class AppModule {
 }

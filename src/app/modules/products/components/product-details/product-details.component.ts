@@ -28,7 +28,7 @@ export class ProductDetailsComponent implements OnInit, OnDestroy {
       this.productsService.getItem(params['productId']).subscribe((productDetails) => {
         this.productDetails = productDetails;
         this.products = productDetails.products || {};
-        this.title.setTitle(`ПП"Рефакт" | ${productDetails.title}`);
+        this.title.setTitle(`ПП "Рефакт" м.Івано-Франківськ | ${productDetails.title}`);
       });
     });
   }

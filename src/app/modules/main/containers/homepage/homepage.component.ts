@@ -24,7 +24,7 @@ export class HomepageComponent implements OnInit {
     }
 
     constructor(public fbservice: FirebaseService, private title: Title) {
-      this.title.setTitle( 'ПП"Рефакт" | Кольоровий та нержавіючий металопрокат. Виготовлення та монтаж поручнів' );
+      this.title.setTitle( 'ПП "Рефакт" м.Івано-Франківськ | Кольоровий та нержавіючий металопрокат. Виготовлення та монтаж поручнів' );
     }
 
     ngOnInit() {

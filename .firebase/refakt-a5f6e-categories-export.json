@@ -1,0 +1,3678 @@
+{"categories":{
+  "koliorovyi_metaloprokat": {
+    "description": "Продукція з міді, латуні, алюмінію, бронзи. В наявності та під замовлення.",
+    "imgUrl": "https://firebasestorage.googleapis.com/v0/b/refakt-a5f6e.appspot.com/o/categories%2FbTimDNWBnon-ferrous.jpg?alt=media&token=674e5414-41d5-4026-a862-59bcc90c959e",
+    "products": {
+      "Алюміній": [
+        {
+          "Description": "Плита АД, А0Н, АК, АМГ, АМЦ, Д16, А5 0,5-90 мм",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "Круг АК6, АД0, АД1, АД31, АМГ, Д16(Т), В95 6-200 мм",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "Шестигранник, квадрат Д16Т 4-52 мм",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "Труба АМГ, Д16Т, АД31, АМЦ, В95, АД0 зовн. діам. от 6 мм",
+          "Price": "м\r"
+        },
+        {
+          "Description": "Кутник АМГ, АМЦ, Д16(Т) H = от 10мм, S = от 1 мм",
+          "Price": "м\r"
+        },
+        {
+          "Description": "Шина електротехн. АД0, АД31 4х40 – 12х120 мм",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "Проволока АМГ 3-6, Д1, Д16 1-5 мм",
+          "Price": "м\r"
+        },
+        {
+          "Description": "Лента, фольга АМГ2, АМЦМ, АД1Н, АМ від 0,05 до 1 мм",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "Чушка АК5М2, АК7, АК9, АК12 и др. 16-20",
+          "Price": "кг\r"
+        }
+      ],
+      "Бронза": [
+        {
+          "Description": "Круг ОЦС555, БрОФ, БрОЦ, БрКМЦ, БрБ2, БрАЖ, БрХ 6-220 мм",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "Лента БрБ2, БрБНТ, БрОЦ, БрКМЦ, БрОФ 0,05-0,8",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "Проволока БрБ, БрКМЦ, БрОЦ 0,15-6 мм",
+          "Price": "м\r"
+        },
+        {
+          "Description": "Труба, втулка БрОЦС555, БрАЖ9-4",
+          "Price": "м\r"
+        },
+        {
+          "Description": "Плита БрХ1",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "Чушка БрОФ10-1, БрОЦС565, БрАЖ10-3, БрАЖ10-4 28-35",
+          "Price": "кг\r"
+        }
+      ],
+      "Латунь": [
+        {
+          "Description": "Лист (плита), лента ЛС59, ЛС63, Л68, Л90 0,4-24 мм",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "Круг ЛС59, ЛС63 4-200 мм",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "Труба ЛС59, ЛС63, Л68 4-130 мм",
+          "Price": "м\r"
+        },
+        {
+          "Description": "Проволока ЛС59, ЛС63, ЛОК59-1-03 0,3-10 мм",
+          "Price": "м\r"
+        },
+        {
+          "Description": "Шестигранник, квадрат ЛС59-1, Л63 5-51 мм",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "Чушка ЛС59-1 та інші 28-35",
+          "Price": "кг\r"
+        }
+      ],
+      "Мідь": [
+        {
+          "Description": "Лист (плита), лента М0, М1, М2 0,4-24 мм",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "Круг М0, М1, М2 5-180 мм",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "Труба М0, М1, М2 0,5-6 мм",
+          "Price": "м\r"
+        },
+        {
+          "Description": "Проволока М0, М1, М2 4-80 мм",
+          "Price": "м\r"
+        },
+        {
+          "Description": "Шестигранник, квадрат М 1, М 2 S = 4-20 мм",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "Чушка МФ9(фосфориста), М1, М2",
+          "Price": "кг\r"
+        }
+      ]
+    },
+    "title": "Кольоровий металопрокат",
+    "url": "products/nonferrous"
+  },
+  "nerzhavijuchyi_metaloprokat": {
+    "description": "Широкий асортимент нержавіючої продукції. Товари в наявності та під замовлення.",
+    "imgUrl": "https://firebasestorage.googleapis.com/v0/b/refakt-a5f6e.appspot.com/o/categories%2FDxXWkdRvststeel.jpg?alt=media&token=d3e00a4f-79b7-4747-8945-3c7f59a5913c",
+    "products": {
+      "Болт": [
+        {
+          "Description": "д/вор 8,0/50 пкр/гл А2 D603",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "10/40 цил/гл А2 IMB 912",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "8/20 цил/гл А2 IMB 912",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "10,0х40 6 гр/гл А2 933",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "12,0х50 6 гр/гл А2 933",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "8,0х30 6 гр/гл А2 933",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "10,0х70 6 гр/гл А2 933",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "12,0х25 6 гр/гл А2 933",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "12,0х30 6 гр/гл А2 933",
+          "Price": "шт\r"
+        }
+      ],
+      "Відвід": [
+        {
+          "Description": "16х1,5 (R=24,0мм)",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "18х1,5 (R=27,0мм)",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "20х1,5 (R=30,0мм)",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "21,3х2,0 (R=28,0мм)",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "21,3х2,0 (R=31,8мм)",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "21,3х2,5 (R=28,0мм)",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "21,3х2,5 (R=31,8мм)",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "22х1,5 (R=40,0мм)",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "25х1,5 (R=38,0мм)",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "25х2,0 (R=38,0мм)",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "26,9х2,0 (R=28,5 мм)",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "26,9х3,0 (R=28,5 мм)",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "28х1,5 (R=42,0мм)",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "30х1,5 (R=45,0мм)",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "30х2,0 (R=45,0мм)",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "32х1,5 (R=48,0мм)",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "32х2,0 (R=48,0мм)",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "33,7х1,5 (R=38,0 мм)",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "33,7х3,0 (R=38,0 мм)",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "34х1,5 (R=55,0мм)",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "38,1х1,5 (R=57,0мм)",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "38,1х2,0 (R=57,0мм)",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "38х1,5 (R=57,0мм)",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "38х3,0 (R=57,0мм)",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "40х1,5 (R=60,0мм)",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "42,4х1,5 (R=47,6мм)",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "42,4х2,0 (R=47,6мм)",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "42,4х3,0 (R=47,6мм)",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "44,5х1,5 (R=51,0мм)",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "45х1,5 (R=51,0мм)",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "48,3х1,5 (R=57,0мм)",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "48,3х1,5 (R=57,1мм)",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "48,3х2,0 (R=57,0мм)",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "48,3х2,0 (R=57,1мм)",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "48,3х3,0 (R=57,0 мм)",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "48,3х3,0 (R=57,1 мм)",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "50,8х1,5 (R=75,0мм)",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "50,8х2,0 (R=75,0мм)",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "52х1,5 (R=70,0мм)",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "54х2,0 (R=75мм)",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "57х3,0 (R=77,0мм)",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "60,3х2,0 (R=76,2мм)",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "63,5х1,5 (R=95,2мм)",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "70х2,0 (R=80,0мм)",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "70х2,0 (R=92,0мм)",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "76,1х1,5 (R=95,0мм)",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "76,1х1,5 (R=96,0мм)",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "76,1х2,0 (R=95,0мм)",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "76,1х2,0 (R=96,0мм)",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "80х2,0 (R=120,0мм)",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "84х2,0 (R=126,0мм)",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "84х2,0 (R=126,5мм)",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "85х2,0 (R=90,0мм)",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "88,9х2,0 (R=114,0 мм)",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "88,9х2,0 (R=114,3 мм)",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "88,9х3,0 (R=114,0 мм)",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "88,9х3,0 (R=114,3 мм)",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "101,6х2,0 (R=133,5мм)",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "101,6х3,0 (R=133,5мм)",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "104х2,0 (R-150,0мм)",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "108х2,0 (R=142,0 мм)",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "108х2,0 (R=142,5 мм)",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "108х3,0 (R=142,0мм)",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "108х3,0 (R=142,5 мм)",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "114,3х3,0 (R=152,5)",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "154х2,0 (R=225,0)",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "204х2,0 (R=300,0)",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "254х2,0",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "полірований 33,7х1,5 (R=38,0мм)",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "полірований 38х2,0 (R=57,0мм)",
+          "Price": "шт\r"
+        }
+      ],
+      "Гайка": [
+        {
+          "Description": "колпачк. М 14 А2",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "колпачк. М 6 А2",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "колпачк. М 8 А2",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "М10 А2 DIN 934",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "М24х1,5 А2 DIN934 S",
+          "Price": "шт\r"
+        }
+      ],
+      "Дріт": [
+        {
+          "Description": "1,5 мм AISI 304",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "1,6 мм AISI 304",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "2,0 мм AISI 304",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "2,5 мм AISI 304",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "3,0 мм AISI 304",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "4,0 мм AISI 304",
+          "Price": "кг\r"
+        }
+      ],
+      "Дріт зварний": [
+        {
+          "Description": "0,8 мм AISI 308L",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "1,0 мм AISI 308L",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "1,2 мм AISI 308L",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "1,5 мм AISI 308L",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "2,0 мм AISI 308L",
+          "Price": "кг\r"
+        }
+      ],
+      "Електроди": [
+        {
+          "Description": "ЛЕЗ ОЗЛ-8 ф3мм (5кг)",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "ЛЕЗ ЦЛ-11 ф4мм (5кг)",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "ОЗЛ-8 3мм (5кг)",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "ОЗЛ-8 4мм (5кг)",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "ОЗЛ-8 4мм Плазма MO",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "ОЗЛ-9А-4мм (5кг)",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "ЦЛ-11-4мм (5кг)",
+          "Price": "кг\r"
+        }
+      ],
+      "З'єднання різьбове": [
+        {
+          "Description": "DN 15 DIN",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "DN 25 DIN",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "DN 32 DIN",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "DN 50 DIN",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "DN 80 DIN",
+          "Price": "шт\r"
+        }
+      ],
+      "Квадрат": [
+        {
+          "Description": "8,0 AISI 304",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "10,0 AISI 304",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "12,0 AISI 304",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "14,0 AISI 304",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "15,0 AISI 304",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "16,0 AISI 304",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "20,0 AISI 304",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "25,0 AISI 304",
+          "Price": "кг\r"
+        }
+      ],
+      "Кран кульовий": [
+        {
+          "Description": "з 2-х част. DN 8",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "з 2-х част. DN 15",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "з 2-х част. DN 32",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "з 2-х част. DN 40",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "з 2-х част. DN 50",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "з 3-х част. DN 15",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "з 3-х част. DN 32",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "з 3-х част. DN 40",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "з 3-х част. DN 50",
+          "Price": "шт\r"
+        }
+      ],
+      "Круг": [
+        {
+          "Description": "2,0 АІSI 201",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "3,0 АІSI 201",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "4,0 АІSI 201",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "5,0 АІSI 201",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "6,0 АІSI 201",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "8,0 АІSI 201",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "10,0 АІSI 201",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "12,0 АІSI 201",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "14,0 АІSI 201",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "16,0 АІSI 201",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "20,0 АІSI 201",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "22,0 АІSI 201",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "25,0 АІSI 201",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "4,0 AISI 202",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "3,0 АІSI 304",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "4,0 AISI 304",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "5,0 АІSI 304",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "6,0 AISI 304",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "7,0 AISI 304",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "8,0 AISI 304",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "10,0 AISI 304",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "12,0 AISI 304",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "14,0 АІSI 304",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "15,0 АІSI 304",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "16,0 АІSI 304",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "18,0 AISI 304",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "20,0 АІSI 304",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "22,0 AISI 304",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "24,0 AISI 304",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "25,0 АІSI 304",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "28,0 AISI 304",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "30,0 АІSI 304",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "32,0 АІSI 304",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "35,0 АІSI 304",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "36,0 АІSI 304",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "38,0 AISI 304",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "42,0 АІSI 304",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "45,0 АІSI 304",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "50,0 АІSI 304",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "52,0 АІSI 304",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "55,0 АІSI 304",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "60,0 АІSI 304",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "65,0 АІSI 304",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "70,0 AISI 304",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "75,0 AISI 304",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "80,0 АІSI 304",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "85,0 AISI 304",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "90,0 АІSI 304",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "100,0 АІSI 304",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "110,0 AISI 304",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "120,0 AISI 304",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "130,0 AISI 304",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "150,0 AISI 304",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "160,0 АІSI 304",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "180,0 АІSI 304",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "280,0 АІSI 304",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "8,0 AISI 420",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "10,0 AISI 420",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "12,0 AISI 420",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "16,0 AISI 420",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "20,0 AISI 420",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "22,0 AISI 420",
+          "Price": "кг\r"
+        }
+      ],
+      "Кутник": [
+        {
+          "Description": "20х20х3,0 AISI 304",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "20х20х3,0 AISI 304 гнут.",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "25х25х3,0 AISI 304",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "30х30х3,0 AISI 304",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "35х35х4,0 AISI 304",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "40х40х3,0 AISI 304",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "40х40х4,0 AISI 304",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "50х50х4,0 AISI 304",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "50х50х5,0 AISI 304",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "60х60х5,0 AISI 304",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "60х60х6,0 AISI 304",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "80х80х8,0 AISI 304",
+          "Price": "кг\r"
+        }
+      ],
+      "Лист": [
+        {
+          "Description": "202 0,8 (1,25х2,5) 4N+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "201  0,4 (1,0х2,0) 4N+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "201  0,5 (1,0х2,0) 2В",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "201  0,5 (1,0х2,0) 2В+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "201  0,5 (1,0х2,0) 4N+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "201  0,5 (1,0х2,0) ВA",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "201  0,5 (1,0х2,0) ВA+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "201  0,8 (1,0х2,0) 2B",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "201  0,8 (1,0х2,0)4N+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "201  0,8 (1,0х2,0) BA+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "201 0,8 (1,24х2,5) 4N+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "201  0,8 (1,25х2,5) 2B",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "201 0,8 (1,25х2,5) 4N+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "201  1,0 (1,239х2,5) 4N+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "201 1,0 (1,25х2,5) 4N+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "201 1,0 (1,5х3,0) 4N+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "201 1,2 (1,25х2,5) 4N+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "201 1,2 (1,5х3,0) 4N+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "201 1,5 (1,0х2,0) 2В",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "201 1,5 (1,25х2,5) 4N+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "201 2,0 (1,0х2,0) 2В",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "201 3,0 (1,0х2,0) 2В",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "201 3,0 (1,0х2,0) 2В+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "201 3,0 (1,25х2,5) 2В",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "201 4,0 (1,5х3,0) N01",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "201 5,0 (1,5х3,0) N01",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "201 6,0 (1,5х3,0) N01",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "201 8,0 (1,5х3,0) N01",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "201 10,0 (1,5х3,0) N01",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "202 1,0 (1,25х2,5) 4N+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  0,4 (1,0х2,0) BA",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  0,4 (1,0х2,0) BA+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  0,5 (1,0х2,0) 2B",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  0,5 (1,0х2,0) 2B+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  0,5 (1х2) 4N+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  0,5 (1,0х2,0) BA",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  0,5 (1,0х2,0) BA+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  0,5 (1,25х2,5) 2В+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  0,5 (1,25х2,5) BA",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  0,5 (1,25х2,5) BA+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  0,6 (1,0х2,0) 2B",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  0,8 (1,0х2,0) 2B",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  0,8 (1,0х2,0) 4N+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  0,8 (1,0х2,0) BA+2PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  0,8 (1,0х2,0) BA+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  0,8 (1,0х2,0) HL+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  0,8 (1,25х2,5) 2B",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  0,8 (1,25х2,5) 2B+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  0,8 (1,25х2,5) 4N+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  0,8 (1,25х2,5) BA+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  0,8 (1,5х3,0) 2B",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  0,8 (1,5х3,0) 4N+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  0,8 (1,5х3,0) BA+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  1,0 (1,0х2,0) 2B",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  1,0 (1,0х2,0) 4N",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  1,0 (1,0х2,0) BA",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  1,0 (1,0х2,0) BA+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  1,0 (1,25х2,5) 2B",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  1,0 (1,25х2,5) 2B+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  1,0 (1,25х2,5) 4N+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  1,0 (1,25х2,5) BA",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  1,0 (1,25х2,5) BA+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  1,0 (1,5х3,0) 2B",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  1,0 (1,5х3,0) 2B+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  1,0 (1,5х3,0) 4N+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  1,0 (1,5х3,0) BA+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  1,2 (1,0х2,0) 2B",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  1,2 (1,0х2,0) BA+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  1,2 (1,25х2,5) 2B",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  1,2 (1,25х2,5) 4N+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  1,2 (1,25х2,5) BA+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  1,2 (1,5х3,0) 2B",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  1,2 (1,5х3,0) 4N+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  1,5 (1,0х2,0) 2B",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  1,5 (1,0х2,0) 2B+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  1,5 (1,0х2,0) 4N+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  1,5 (1,0х2,0) BA+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  1,5 (1,25х2,5) 2B",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  1,5 (1,25х2,5) 2B+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  1,5 (1,25х2,5) 4N+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  1,5 (1,25х2,5) BA+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  1,5 (1,5х3,0) 2B+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  1,5 (1,5х3,0) BA+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  2,0 (1,0х2,0) 2B",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  2,0 (1,0х2,0) 2B+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  2,0 (1,25х2,5) 2B",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  2,0 (1,25х2,5) 2B+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  2,0 (1,25х2,5) 4N+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  2,0 (1,25х2,5) BA+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  2,0 (1,5х3,0) 2B",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  2,0 (1,5х3,0) 4N+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  2,0 (1,5х3,0) BA+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  2,5 (1,0х2,0) 2B",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  2,5 (1,25х2,5) 2B",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  2,5 (1,25х2,5) 2B+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  2,5 (1,5х3,0) 2B",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  2,5 (1,5х3) 4N+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  3,0 (1,0х2,0) 2B",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  3,0 (1,0х2,0) 2B+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  3,0 (1,25х2,5) 2B",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  3,0 (1,25х2,5) 2B+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  3,0 (1,25х2,5) 4N+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  3,0 (1,25х2,5) NO1",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  3,0 (1,5х3,0) 2B",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  3,0 (1,5х3,0) 2B+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  3,0 (1,5х3,0) BA",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  3,0 (1,5х3,0) NO1",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  3,0 (1,5х6,0) NO1",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  4,0 (1,0х2,0) 2B",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  4,0 (1,0х2,0) 2B+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  4,0 (1,0х2,0) NO1",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  4,0 (1,25х2,5) 2B",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  4,0 (1,25х2,5) NO1",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  4,0 (1,5х3,0) 2B",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  4,0 (1,5х3,0) NO1",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  4,0 (1,5х6,0) NO1",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  5,0 (1х2,0) 2B",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  5,0 (1,0х2,0) NO1",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  5,0 (1,25х2,5) NO1",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  5,0 (1,5х3,0) NO1",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  5,0 (1,5х6,0) NO1",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  6,0 (1,0х2,0) 2B",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  6,0 (1,0х2,0) NO1",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  6,0 (1,25х2,5) NO1",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  6,0 (1,5х3,0) NO1",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  6,0 (1,5х6,0) NO1",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  8,0 (1,0х2,0) NO1",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  8,0 (1,5х3,0) NO1",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  8,0 (1,5х6,0) NO1",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  10,0 (1,0х2,0) NO1",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  10,0 (1,5х3,0) NO1",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  10,0 (1,5х6,0) NO1",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  12,0 (1,0х2,0) NO1",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  12,0 (1,5х3,0) NO1",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  14,0 (1,5х3,0) NO1",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  16,0 (1,5х3,0) NO1",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  18,0 (1,5х3,0) NO1",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  20,0 (1,5х3,0) NO1",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "304  25,0 (1,5х3,0) NO1",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "316  1,5 (1,0х2,0) 2B",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "316  2,0 (1,0х2,0) 2B",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "316  2,0 (1,25х2,5) 2B",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "316  3,0 (1,0х2,0) 2B",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "316  3,0 (1,25х2,5) 2В",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "316  4,0 (1,0х2,0) 2B",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "316L  3,0 (1,5х3,0) 2B",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "316L  6,0 (1,5х3,0) N01",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "321  0,8 (1,0х2,0) 2B",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "321  1,0 (1,0х2,0) 2В",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "321  1,5 (1,0х2,0) 2В",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "321  2,0 (1,0х2,0) 2B",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "321  3,0 (1,0х2,0) 2B",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "321  3,0 (1,5х3,0) NO1",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "321  3,0 (1,5х6,0) NO1",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "321  4,0 (1,5х6,0) NO1",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "321  5,0 (1,5х3,0) NO1",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "321  6,0 (1,5х3,0) NO1",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "321  8,0 (1,5х3,0) NO1",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "321  8,0 (1,5х6,0) NO1",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "321  10,0 (1,5х3,0) NO1",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "321 10,0 (1,5х6,0) NO1",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "321 16,0 (1,5х6,0) NO1",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "430 0,4 (1,0х2,0) BA",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "430 0,4 (1,0х2,0) BA (Chia Far)",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "430 0,4 (1,0х2,0) BA+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "430 0,5 (1,0х2,0) 2B",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "430 0,5 (1,0х2,0) 2B+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "430 0,5 (1,0х2,0) 4N+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "430 0,5 (1,0х2,0) BA",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "430 0,5 (1,0х2,0) BA+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "430 0,5 (1,25х2,5) 4N+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "430 0,5 (1,25х2,5) BA",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "430 0,5 (1,25х2,5) BA+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "430 0,6 (1,0х2,0) 4N+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "430 0,6 (1,0х2,0) BA",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "430 0,6 (1,0х2,0) BA+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "430 0,8 (1,0х2,0) 2B",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "430 0,8 (1,0х2,0) 2B+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "430 0,8 (1,0х2,0) 4N+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "430 0,8 (1,0х2,0) BA",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "430 0,8 (1,0х2,0) BA+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "430 0,8 (1,25х2,5) 2В",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "430 0,8 (1,25х2,5) 2В+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "430 0,8 (1,25х2,5) 4N+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "430 0,8 (1,25х2,5) BA+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "430 0,8 (1,5х3,0) 4N+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "430 1,0 (1,0х2,0) 2B",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "430 1,0 (1,0х2,0) BA",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "430 1,0 (1,0х2,0) BA+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "430 1,0 (1,25х2,5) 2B",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "430 1,0 (1,25х2,5) 4N+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "430 1,0 (1,25х2,5) BA+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "430 1,0 (1,5х3,0) 4N+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "430 1,2 (1,0х2,0) 2B",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "430 1,2 (1,0х2,0) 4N+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "430 1,2 (1,0х2,0) BA",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "430 1,2 (1,0х2,0) BA+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "430 1,2 (1,25х2,5) 2В",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "430 1,2 (1,25х2,5) 4N+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "430 1,2 (1,25х2,5) BA",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "430 1,2 (1,25х2,5) BA+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "430 1,2 (1,5х3,0) 4N+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "430 1,5 (1,0х2,0) 2B",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "430 1,5 (1,0х2,0) 4N+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "430 1,5 (1,0х2,0) BA",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "430 1,5 (1,0х2,0) BA+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "430 1,5 (1,25х2,5) 2B",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "430 1,5 (1,25х2,5) 2B+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "430 1,5 (1,25х2,5) 4N+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "430 1,5 (1,25х2,5) BA+2PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "430 1,5 (1,25х2,5) BA+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "430 1,5 (1,5х3,0) 2B",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "430 1,5 (1,5х3,0) 2B+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "430 2,0 (1,0х2,0) 2B",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "430 2,0 (1,0х2,0) 2B+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "430 2,0 (1,0х2,0) BA+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "430 2,0 (1,25х2,5) 2B",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "430 2,0 (1,25х2,5) BA",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "430 2,0 (1,25х2,5) BA+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "430 3,0 (1,0х2,0) 2B",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "430 3,0 (1,25х2,5) 2B",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "430 3,0 (1,25х2,5) 2B+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "430 3,0 (1,25х2,5) BA+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "430 3,0 (1,25х2,5) NO1",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "430 3,0 (1,5х3,0) 2B",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "430 4,0 (1,0х2,0) NO1",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "430 4,0 (1,25х2,5) NO1",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "430 4,0 (1,5х3,0) NO1",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "430 5,0 (1,0х2,0) NO1",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "430 5,0 (1,25х2,5) NO1",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "430 5,0 (1,5х3,0) NO1",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "430 6,0 (1,25х2,5) NO1",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "430 6,0 (1,5х3,0) NO1",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "420 8,0 (1,5х3,0) NO1",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "420 10,0 (1,5х3,0) NO1",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "420 12,0 (1,5х3,0) NO1",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "декоративний 304 0,8 (1,25х2,5) льон+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "декоративний 304 1,0 (1,25х2,5) шкіра+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "декоративний 304 1,0 (1,25х2,5) льон+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "декоративний 430 0,8 (1,25х2,5) шкіра+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "декоративний 430 0,8 (1,25х2,5) льон+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "декоративний 430 1,0 (1,25х2,5) льон+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "декоративний 430 1,5 (1,25х2,5) шкіра+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "декоративний 430 1,5 (1,25х2,5) льон+PVC",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "перфорований 0,5 (1,0х2,0) Wave1",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "перфорований 0,8 (1,0х2,0) Don",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "рифлений 304  1,0 (1,0х2,0)  BA+P",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "рифлений 304  2,0 (1,0х2,0)",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "рифлений 304  3,0 (1,0х2,0)",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "рифлений 304  3,0 (1,25х2,5)",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "рифлений 304  4,0 (1,25х2,5)",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "Таиланд  304 0,8 (1,22х2,44) Кольца",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "Таиланд  304 0,8 (1,22х2,44) Северное сияние",
+          "Price": "кг\r"
+        }
+      ],
+      "Різьба коротка": [
+        {
+          "Description": "DN 8 ( 1/4\" )",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "DN 15 ( 1/2\" )",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "DN 20 ( 3/4\" )",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "DN 32 ( 1 1/4\" )",
+          "Price": "шт\r"
+        }
+      ],
+      "Труба кругла": [
+        {
+          "Description": "матова 6х1,0 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 8х1,0 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 10х1,0 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 10х1,5 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 12х1,0 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 12х1,5",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 12х1,5 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 12х2,0 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 14х1,5 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 14х1,5 tig AISI 201",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 14х2,0 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 15х1,5 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 16х1,0",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 16х1,0 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 16х1,2",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 16х1,5",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 16х1,5 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 16х2,0 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 18х1,0 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 18х1,2 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 18х1,5",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 18х1,5 DIN 11850",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 18х1,5 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 18х1,5 tig 240G AISI 201",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 18х2,0 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 19х1,5",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 20х1,0 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 20х1,2",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 20х1,2 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 20х1,5",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 20х1,5 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 20х2,0",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 20х2,0 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 21,3х2,0",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 21,3х2,0 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 21,3х2,5 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 21,3х3,0 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 22х1,5",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 22х1,5tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 22х1,5 tig 240G AISI 430",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 22х2,0 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 25х1,0 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 25х1,2",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 25х1,2 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 25х1,2 tig 240G AISI 201",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 25х1,5",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 25х1,5 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 25х1,5 tig 240G AISI 201",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 25х2,0 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 25х2,5 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 25х3,0 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 26,9х2,0 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 26,9х2,5(3/4\") tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 26,9х3,0(3/4\") tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 28х1,5 AISI 316L",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 28х1,5 DIN 11850 (Италия)",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 28х1,5 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 30х1,0 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 30х1,5",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 30х1,5 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 30х2,0 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 32х1,2 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 32х1,5",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 32х1,5 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 32х2,0",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 32х2,0 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 32х2,5 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 32х3,0",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 32х3,0 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 33,7х1,5",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 33,7х1,5 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 33,7х2,0 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 33,7х3,0 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 33х1,5 DIN11850",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 33х1,5 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 34х1,5 DIN 11850",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 38,1х1,2",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 38,1х2,0 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 38,1х3,0 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 38х1,0 tig 240G AISI 201",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 38х1,5",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 38х1,5 DIN 11850",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 38х1,5 tig 240G AISI 201",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 38х2,0",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 38х2,0 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 38х3,0 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 40х1,5",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 40х1,5 DIN 11850",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 40х1,5 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 40х1,5 tig  AISI 316L",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 42,4х1,5",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 42,4х1,5(1 1/4) tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 42,4х1,5 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 42,4х2,0(1''1/4) tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 42,4х3,0 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 45х2,0 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 48,3х1,5",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 48,3х2,0",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 48,3х2,0 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 48,3х2,5(1\" 1/2)",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 48,3х3,0",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 48,3х3,0 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 48,3х3,0(1\" 1/2) tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 50,8х1,5",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 50,8х1,5 DIN 11850",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 50,8х2,0 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 50,8х3,0 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 52х1,0 DIN 11850",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 52х1,0 DIN 11850 (2 сорт)",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 52х1,0 EN 10217-7",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 52х1,5 DIN11850",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 52х2,0 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 52х1,5 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 53х1,5 DIN11850",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 54х2,0 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 57х1,5 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 57х2,0 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 57х3,0 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 60,3х1,5 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 60,3х2,0",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 60,3х2,0 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 60,3х3,0",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 60,3х3,0 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 63,5х1,5 DIN11850",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 63,5х1,5 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 70х1,5 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 70х2,0",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 70х2,0 DIN 11850",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 70х2,0 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 76,1х1,5 DIN 11850",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 76,1х2,0",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 76,1х2,0 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 76,1х4 (2\"1/2) tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 80x2,0 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 80х2,0",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 85х2,0  DIN11850",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 85х2,0  tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 88,9х2,0",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 88,9х2,0 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 88,9х3,0 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 88,9х4,0 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 101,6х1,5 (3\" 1/2) DIN 11850",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 101,6х2,0",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 101,6х2,0 DIN 11850",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 101,6х2,0 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 101,6х3,0",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 101,6х3,0 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 101,6х4 (3\" 1/2) tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 104х2,0 DIN 11850",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 104х2,0 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 108х2,0 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 108х3,0 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 114,3х2,0 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 114,3х3,0 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 129х2,0 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 129х3,0 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 139,7х2,0 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 154х2,0 DIN 11850",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 154х2,0 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 159х3,0 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 159х4,0 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 168,3х2,0 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 204х2,0 AISI 316L",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 204х2,0 DIN 11850",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 204х2,0 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 219,1х3,0 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 219,1х4 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 273х3,0 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "матова 323,9х2,0 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 8х1,0 tig 600G",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 8х1,0 tig 600G   AISI",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 10х1,0 600G",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 10х1,0 tig 600G AISI 2",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 10х1,2 600G",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 10х1,5 600G",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 12х1,0 tig 600G AISI 2",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 12х1,0 600 G.",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 12х1,0 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 12х1,0",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 12х1,5 tig 600G AISI 2",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 14х1,5 tig 600G",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 14х1,5 tig 600G AISI 2",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 16х1,0 600G",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 16х1,0 600G AISI201",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 16х1,5 600G",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 16х1,5 600G AISI 201",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 18х1,5 tig 600G",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 18х1,5 600G AISI 201",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 18х1,5",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 19х1,5 tig 600G",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 20х1,0 tig 600G AISI 2",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 20х1,2 tig 600G",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 20х1,2 tig 600G AISI 2",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 20х1,2",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 20х1,5 600G",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 20х1,5 600G AISI 201",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 20х1,5",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 20х2,0 tig 600G",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 22х1,5 tig 600G",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 22х1,5 tig 600G AISI 2",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 22х1,5",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 25х1,0 tig 600G AISI 2",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 25х1,2 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 25х1,5 600G",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 25х1,5 600G AISI 201",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 25х2,0 tig 600G",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована  28х1,5 DIN 11850",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 30х1,2 tig 600G AISI 2",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 30х1,2 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 30х1,5 600G",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 30х1,5 tig 600G AISI 2",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 30х1,5",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 30х2,0 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 31.8х2,0 400G",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 32х1,2 600G",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 32х1,5 600G",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 32х1,5 600G AISI 201",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 32х2,0",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 32х2,0 tig 600G AISI 201",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 32х2,0 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 32х2,5",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 35х1,5 tig 600G",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 38х1,5 600G AISI 201",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 38х1,5",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 38х2,0",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 38х2,0 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 38х3,0",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 40х1,0 DIN 11850",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 40х1,2 tig 600G AISI 201",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 40х1,5 tig 600G",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 40х1,5 tig 600G AISI 201",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 40х1,5",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 42,4х1,2 tig 600G ",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 42,4х1,5(1 1/4) 600G ",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 42,4х1,5 600G AISI 201",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 42,4х2,0",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 42,4х2,0 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 42,4х3,0 tig 600G",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 42,4х3,0 tig",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 42,4х3,0",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 48,3х1,5 tig 600G",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 48,3х1,5",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 48,3х2,0 tig 600G",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 48,3х2,0",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 50,8х1,2 600G",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 50,8х1,5 600G",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 50,8х1,5 600G AISI 201",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 50,8х2.0",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 60,3х1,2 tig 600G ",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 60,3х1,5 tig 600G",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 60,3х2,0",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 60,3х3,0 tig 600G",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 70х1,5 tig 600G",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 70х2,0 DIN 11850",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 70х2,0",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 76,1х2,0 tig",
+          "Price": "м\r"
+        }
+      ],
+      "Труба прямокутна": [
+        {
+          "Description": "15,88х15,88х1,5 240G AISI 201",
+          "Price": "м\r"
+        },
+        {
+          "Description": "15х15х1,0",
+          "Price": "м\r"
+        },
+        {
+          "Description": "15х15х1,2",
+          "Price": "м\r"
+        },
+        {
+          "Description": "15х15х1,5",
+          "Price": "м\r"
+        },
+        {
+          "Description": "20х10х1,2",
+          "Price": "м\r"
+        },
+        {
+          "Description": "20х10х1,5",
+          "Price": "м\r"
+        },
+        {
+          "Description": "20х20х1,0",
+          "Price": "м\r"
+        },
+        {
+          "Description": "20х20х1,0 240G AISI 201",
+          "Price": "м\r"
+        },
+        {
+          "Description": "20х20х1,2",
+          "Price": "м\r"
+        },
+        {
+          "Description": "20х20х1,2 240G AISI 201",
+          "Price": "м\r"
+        },
+        {
+          "Description": "20х20х1,5",
+          "Price": "м\r"
+        },
+        {
+          "Description": "20х20х2,0",
+          "Price": "м\r"
+        },
+        {
+          "Description": "25х25х1,0",
+          "Price": "м\r"
+        },
+        {
+          "Description": "25х25х1,0 240G AISI 201",
+          "Price": "м\r"
+        },
+        {
+          "Description": "25х25х1,2",
+          "Price": "м\r"
+        },
+        {
+          "Description": "25х25х1,2 AISI 201 240G",
+          "Price": "м\r"
+        },
+        {
+          "Description": "25х25х1,5",
+          "Price": "м\r"
+        },
+        {
+          "Description": "25х25х1,5 240G AISI 201",
+          "Price": "м\r"
+        },
+        {
+          "Description": "25х25х2,0",
+          "Price": "м\r"
+        },
+        {
+          "Description": "30х10х1,2",
+          "Price": "м\r"
+        },
+        {
+          "Description": "30х10х1,5",
+          "Price": "м\r"
+        },
+        {
+          "Description": "30х20х1,5",
+          "Price": "м\r"
+        },
+        {
+          "Description": "30х30х1,0",
+          "Price": "м\r"
+        },
+        {
+          "Description": "30х30х1,0 240G AISI 201",
+          "Price": "м\r"
+        },
+        {
+          "Description": "30х30х1,2",
+          "Price": "м\r"
+        },
+        {
+          "Description": "30х30х1,2 240G AISI 201",
+          "Price": "м\r"
+        },
+        {
+          "Description": "30х30х1,5",
+          "Price": "м\r"
+        },
+        {
+          "Description": "30х30х2,0",
+          "Price": "м\r"
+        },
+        {
+          "Description": "30х30х3,0",
+          "Price": "м\r"
+        },
+        {
+          "Description": "35х35х2,0",
+          "Price": "м\r"
+        },
+        {
+          "Description": "40х10х1,5",
+          "Price": "м\r"
+        },
+        {
+          "Description": "40х20х1,2",
+          "Price": "м\r"
+        },
+        {
+          "Description": "40х20х1,2 240G AISI 201",
+          "Price": "м\r"
+        },
+        {
+          "Description": "40х20х1,2 240G AISI 430",
+          "Price": "м\r"
+        },
+        {
+          "Description": "40х20х1,5",
+          "Price": "м\r"
+        },
+        {
+          "Description": "40х20х1,5 AISI 201 240G",
+          "Price": "м\r"
+        },
+        {
+          "Description": "40х20х2,0",
+          "Price": "м\r"
+        },
+        {
+          "Description": "40х40х1,0 240G AISI 201",
+          "Price": "м\r"
+        },
+        {
+          "Description": "40х40х1,0 240G AISI 304",
+          "Price": "м\r"
+        },
+        {
+          "Description": "40х40х1,2",
+          "Price": "м\r"
+        },
+        {
+          "Description": "40х40х1,2 240G AISI 201",
+          "Price": "м\r"
+        },
+        {
+          "Description": "40х40х1,5",
+          "Price": "м\r"
+        },
+        {
+          "Description": "40х40х1,5 240G AISI 201",
+          "Price": "м\r"
+        },
+        {
+          "Description": "40х40х2,0",
+          "Price": "м\r"
+        },
+        {
+          "Description": "40х40х2,0 240G AISI 201",
+          "Price": "м\r"
+        },
+        {
+          "Description": "40х40х3,0",
+          "Price": "м\r"
+        },
+        {
+          "Description": "45х45х2,0",
+          "Price": "м\r"
+        },
+        {
+          "Description": "50х25х1,2 240G AISI 201",
+          "Price": "м\r"
+        },
+        {
+          "Description": "50х25х1,2 240G AISI 409",
+          "Price": "м\r"
+        },
+        {
+          "Description": "50х25х1,5",
+          "Price": "м\r"
+        },
+        {
+          "Description": "50х25х2,0",
+          "Price": "м\r"
+        },
+        {
+          "Description": "50х30х1,5",
+          "Price": "м\r"
+        },
+        {
+          "Description": "50х30х2,0",
+          "Price": "м\r"
+        },
+        {
+          "Description": "50х50х1,5",
+          "Price": "м\r"
+        },
+        {
+          "Description": "50х50х1,5 240G AISI 201",
+          "Price": "м\r"
+        },
+        {
+          "Description": "50х50х2,0",
+          "Price": "м\r"
+        },
+        {
+          "Description": "50х50х3,0",
+          "Price": "м\r"
+        },
+        {
+          "Description": "60х30х1,5",
+          "Price": "м\r"
+        },
+        {
+          "Description": "60х30х2,0",
+          "Price": "м\r"
+        },
+        {
+          "Description": "60х30х3,0",
+          "Price": "м\r"
+        },
+        {
+          "Description": "60х40х1,5",
+          "Price": "м\r"
+        },
+        {
+          "Description": "60х40х1,5 240G AISI 201",
+          "Price": "м\r"
+        },
+        {
+          "Description": "60х40х2,0",
+          "Price": "м\r"
+        },
+        {
+          "Description": "60х40х3,0",
+          "Price": "м\r"
+        },
+        {
+          "Description": "60х60х2,0",
+          "Price": "м\r"
+        },
+        {
+          "Description": "60х60х2,0 240G AISI 201",
+          "Price": "м\r"
+        },
+        {
+          "Description": "60х60х3,0",
+          "Price": "м\r"
+        },
+        {
+          "Description": "80х40х2,0",
+          "Price": "м\r"
+        },
+        {
+          "Description": "80х40х3,0",
+          "Price": "м\r"
+        },
+        {
+          "Description": "80х60х3,0",
+          "Price": "м\r"
+        },
+        {
+          "Description": "80х80х2,0",
+          "Price": "м\r"
+        },
+        {
+          "Description": "80х80х3,0",
+          "Price": "м\r"
+        },
+        {
+          "Description": "80х80х4,0",
+          "Price": "м\r"
+        },
+        {
+          "Description": "100х100х2,0",
+          "Price": "м\r"
+        },
+        {
+          "Description": "100х100х3,0",
+          "Price": "м\r"
+        },
+        {
+          "Description": "100х100х4,0",
+          "Price": "м\r"
+        },
+        {
+          "Description": "100х50х2,0",
+          "Price": "м\r"
+        },
+        {
+          "Description": "100х50х3,0",
+          "Price": "м\r"
+        },
+        {
+          "Description": "120х80х3,0",
+          "Price": "м\r"
+        },
+        {
+          "Description": "120х80х4,0",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 10х10х1,2 600G",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 20х20х1,2 600G AISI",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 20х20х1,5 600G",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 20х20х1,5 600G AISI",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 25х25х1,2 600G AISI",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 25х25х1,5 600G",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 25х25х1,5 600G AISI",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 30х10х1,2 600G",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 30х10х1,2 600G AISI",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 30х10х1,5 600G",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 30х10х1,5 600G AISI",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 30х20х1,5 600G",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 30х30х1,2 600G",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 30х30х1,2 600G AISI",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 30х30х1,5 600G",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 30х30х1,5 600G AISI",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 40х20х1,2 600G",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 40х20х1,2 600G AISI",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 40х20х1,5 600G",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 40х20х1,5 600G AISI",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 40х20х2,0 600G",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 40х40х1,2 600G",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 40х40х1,5 600G",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 40х40х1,5 600G AISI 20",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 40х40х2,0 600G",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 50х25х1,5 600G",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 50х25х1,5 600G AISI 20",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 50х25х2,0 600G",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 50х30х1,5 600G",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 50х30х1,5 600G AISI 20",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 50х50х1,5 600G ",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 50х50х1,5 600G AISI 20",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 50х50х2,0 600G",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 60х30х1,5 600G",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 60х40х1,5 600G",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 60х40х1,5 600G AISI 20",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 60х40х1,5",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 60х40х2,0 600G",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 60х60x1,5 600G",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 60х60х1,5 600G AISI 20",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 80х40х2,0 600G",
+          "Price": "м\r"
+        },
+        {
+          "Description": "полірована 80х80х2,0 600G",
+          "Price": "м\r"
+        }
+      ],
+      "Чашка декор": [
+        {
+          "Description": "32,4х65",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "38,5х65",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "42.8х65",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "42,8х96",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "48,3х96,0",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "16,0х38",
+          "Price": "шт\r"
+        }
+      ],
+      "Шайба": [
+        {
+          "Description": "плоская М 8 А2",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "пруж. кв.сеч.10 А2 7980",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "пруж. ф24 s=5 A2 DIN 127 B S",
+          "Price": "шт\r"
+        }
+      ],
+      "Шестигранник": [
+        {
+          "Description": "8",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "13",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "17",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "19",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "22",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "24",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "27",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "30",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "32",
+          "Price": "кг\r"
+        }
+      ],
+      "Шплинт": [
+        {
+          "Description": "3,2/20 А2",
+          "Price": "шт\r"
+        },
+        {
+          "Description": "4,0/40 А2 ",
+          "Price": "шт\r"
+        }
+      ],
+      "Штаба": [
+        {
+          "Description": "20х3,0  AISI 304",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "20х4,0  AISI 304",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "25х5,0  AISI 304",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "30х4,0  AISI 304",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "30х6,0  AISI 304",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "40х4,0 AISI 304",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "40х5,0 AISI 304",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "40х6,0  AISI 304",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "40х8,0 AISI 304",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "50х10  AISI 304",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "50х4,0  AISI 304",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "50х5,0  AISI 304",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "50х6,0  AISI 304",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "50х8,0  AISI 304",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "60х5,0  AISI 304",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "60х6,0  AISI 304",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "60х8,0  AISI 304",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "80х10  AISI 304",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "80х6,0  AISI 304",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "80х8,0  AISI 304",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "100х10,0  AISI 304",
+          "Price": "кг\r"
+        },
+        {
+          "Description": "100х6,0 AISI 304",
+          "Price": "кг\r"
+        }
+      ]
+    },
+    "title": "Нержавіючий металопрокат"
+  },
+  "poruchni": {
+    "description": "Високоякісні поручні під замовлення з можливістю комбінування нержавіючих металів, дерева, скла та інших матеріалів.",
+    "imgUrl": "https://firebasestorage.googleapis.com/v0/b/refakt-a5f6e.appspot.com/o/categories%2Foa419Jp4handrail1.jpg?alt=media&token=7a4075c0-70b5-4277-b655-64b4a885055a",
+    "title": "Виготовлення та монтаж поручнів"
+  }
+}}

@@ -14,7 +14,7 @@ export class ProductsComponent implements OnInit {
   categories: any[] = [];
 
   constructor(private productsService: ProductsService, private title: Title) {
-    this.title.setTitle( 'ПП"Рефакт" | Продукція' );
+    this.title.setTitle( 'ПП "Рефакт" м.Івано-Франківськ | Продукція' );
   }
 
   @HostBinding('@routeAnimation') routeAnimation = true;

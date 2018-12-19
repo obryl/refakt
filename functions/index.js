@@ -1,5 +1,6 @@
 const functions = require('firebase-functions');
 const nodemailer = require('nodemailer');
+const admin = require('firebase-admin');
 
 exports.mailSend = functions.https.onCall((data) => {
     const login = functions.config().gmail.email;
@@ -17,9 +18,9 @@ exports.mailSend = functions.https.onCall((data) => {
     let mailOptions = {
       from: 'noreply@refakt.com',
       to: 'brylkovsky@gmail.com',
-      // cc: 'refakt95@gmail.com',
+      cc: 'refakt95@gmail.com',
       replyTo: data.email,
-      subject: 'Повідомлення з refact.if.ua',
+      subject: 'Повідомлення з refakt.if.ua',
       html: `<h4>Ім'я клієнта: ${data.name}</h4>
                    <h4>Номер телефону: ${data.phone}</h4>
                    <h4>Електронна скринька: ${data.email}</h4>
