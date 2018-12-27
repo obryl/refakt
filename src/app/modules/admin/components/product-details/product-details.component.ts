@@ -4,6 +4,7 @@ import {Subject} from 'rxjs/internal/Subject';
 import {ProductsService} from '../../../products/services/products.service';
 import {saveAs} from 'file-saver';
 import {FormControl, FormGroup, Validators} from '@angular/forms';
+import {AngularFireStorage} from 'angularfire2/storage';
 
 @Component({
   selector: 'app-product-details',
@@ -25,6 +26,7 @@ export class ProductDetailsComponent implements OnInit, OnDestroy {
   products;
   keys = Object.keys;
   values = Object.values;
+  handrailsPcsUrls;
 
   constructor(private route: ActivatedRoute, private productsService: ProductsService) {
   }
@@ -34,9 +36,11 @@ export class ProductDetailsComponent implements OnInit, OnDestroy {
       this.productsService.getItem(params['productId']).subscribe((productDetails) => {
         this.productDetails = productDetails;
         this.products = productDetails.products || {};
+        this.handrailsPcsUrls = productDetails.products || [];
       });
     });
   }
+
 
   // Merging object from database and object from loaded file
   mergeData(objDnl, objFile) {
@@ -51,7 +55,6 @@ export class ProductDetailsComponent implements OnInit, OnDestroy {
           });
           return unique;
         } else {
-          console.log(true);
           return true;
         }
       });
@@ -64,7 +67,24 @@ export class ProductDetailsComponent implements OnInit, OnDestroy {
         objDnl[elem] = filteredObj[elem];
       }
     });
-    console.log(objDnl);
+
+  }
+
+  onPictureLoad(event) {
+    const file = event.target.files;
+    for (const key in file) {
+      if (file.hasOwnProperty(key)) {
+        this.productsService.uploadPicture(file[key])
+          .then(item => item.ref.getDownloadURL()
+            .then(url => {
+              this.handrailsPcsUrls.push(url);
+                this.productsService.updateProducts(this.productDetails.id, this.handrailsPcsUrls);
+              }
+            )
+          );
+      }
+    }
+
   }
 
   onFileLoad(event) {

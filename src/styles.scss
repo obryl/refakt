@@ -14,6 +14,13 @@ p {
 *:focus {
   outline: none;
 }
+div.plain-container {
+  justify-content: center;
+  background-color: #212529;
+  img.image {
+    margin: 5px!important;
+  }
+}
 @media only screen and (max-width: 576px) {
   ol.carousel-indicators {
     li {

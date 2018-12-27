@@ -18,6 +18,9 @@ import {AngularFireFunctionsModule} from 'angularfire2/functions';
 import {ReactiveFormsModule} from '@angular/forms';
 import {ContactFormComponent} from './modules/main/components/contact-form/contact-form.component';
 import {Title} from '@angular/platform-browser';
+import 'hammerjs';
+import 'mousetrap';
+import { GalleryModule } from '@ks89/angular-modal-gallery';
 
 @NgModule({
   declarations: [
@@ -35,6 +38,7 @@ import {Title} from '@angular/platform-browser';
     AngularFireStorageModule,
     AngularFireFunctionsModule,
     NgbModule.forRoot(),
+    GalleryModule.forRoot(),
     BrowserAnimationsModule,
     AppRoutingModule,
     ClickOutsideModule,

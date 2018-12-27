@@ -5,11 +5,13 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import {ProductsRoutingModule} from './products-routing.module';
 import {ProductDetailsComponent} from './components/product-details/product-details.component';
 import {Title} from '@angular/platform-browser';
+import {GalleryModule} from '@ks89/angular-modal-gallery';
 
 @NgModule({
   imports: [
     CommonModule,
     NgbModule,
+    GalleryModule,
     ProductsRoutingModule
   ],
   declarations: [ProductsComponent, ProductDetailsComponent],

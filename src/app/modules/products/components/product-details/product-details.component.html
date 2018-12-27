@@ -8,28 +8,38 @@
             <p [innerHtml]="productDetails?.description"></p>
         </div>
     </div>
-    <h2 *ngIf="keys(products).length > 0" class="product-title mt-3">Каталог товарів</h2>
-    <div *ngIf="keys(products).length > 0" class="products-list">
-        <ul class="nav nav-tabs">
-            <li class="nav-item" *ngFor="let name of keys(products); let i = index">
-                <h2 class="nav-link" (click)="activeTab = i" [ngClass]="{active: activeTab === i}">{{name}}</h2>
-            </li>
-        </ul>
-        <table   class="table table-hover table-dark">
-            <thead>
-            <tr>
-                <th scope="col">Назва</th>
-                <th scope="col">Деталі</th>
-                <th scope="col">Одиниці виміру</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr *ngFor="let item of products[keys(products)[activeTab]]">
-                <td>{{keys(products)[activeTab]}}</td>
-                <td>{{item.Description}}</td>
-                <td>{{item.Price}}</td>
-            </tr>
-            </tbody>
-        </table>
+    <div *ngIf="productDetails.id !== 'poruchni'">
+        <h2 *ngIf="keys(products).length > 0" class="product-title mt-3">Каталог товарів</h2>
+        <div *ngIf="keys(products).length > 0" class="products-list">
+            <ul class="nav nav-tabs">
+                <li class="nav-item" *ngFor="let name of keys(products); let i = index">
+                    <h2 class="nav-link" (click)="activeTab = i" [ngClass]="{active: activeTab === i}">{{name}}</h2>
+                </li>
+            </ul>
+            <table class="table table-hover table-dark">
+                <thead>
+                <tr>
+                    <th scope="col">Назва</th>
+                    <th scope="col">Деталі</th>
+                    <th scope="col">Одиниці виміру</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr *ngFor="let item of products[keys(products)[activeTab]]">
+                    <td>{{keys(products)[activeTab]}}</td>
+                    <td>{{item.Description}}</td>
+                    <td>{{item.Price}}</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+</div>
+
+<div *ngIf="productDetails?.id === 'poruchni'" class="gallery-container">
+    <div *ngIf="images">
+        <h2 class="product-title">Фото встановлених перил</h2>
+        <ks-modal-gallery [id]="1" [modalImages]="images" [plainGalleryConfig]="carouselPreview" [title]="false" ></ks-modal-gallery>
     </div>
 </div>

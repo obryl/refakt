@@ -7,27 +7,28 @@ import {Title} from '@angular/platform-browser';
 
 
 @Component({
-    selector: 'app-homepage',
-    templateUrl: './homepage.component.html',
-    styleUrls: ['./homepage.component.scss'],
-    animations: [slideInDownAnimation]
+  selector: 'app-homepage',
+  templateUrl: './homepage.component.html',
+  styleUrls: ['./homepage.component.scss'],
+  animations: [slideInDownAnimation]
 })
 export class HomepageComponent implements OnInit {
-    categories: Observable<AngularFireAction<DatabaseSnapshot<{}>>[]> = this.fbservice.getItems();
-    correctWidth: boolean;
+  categories: Observable<AngularFireAction<DatabaseSnapshot<{}>>[]> = this.fbservice.getItems();
+  correctWidth: boolean;
 
-    @HostBinding('@routeAnimation') routeAnimation = true;
-    @HostBinding('style.display') display = 'block';
 
-    @HostListener('window:resize') onResize() {
-        this.correctWidth = window.innerWidth < 786;
-    }
+  @HostBinding('@routeAnimation') routeAnimation = true;
+  @HostBinding('style.display') display = 'block';
 
-    constructor(public fbservice: FirebaseService, private title: Title) {
-      this.title.setTitle( 'ПП "Рефакт" м.Івано-Франківськ | Кольоровий та нержавіючий металопрокат. Виготовлення та монтаж поручнів' );
-    }
+  @HostListener('window:resize') onResize() {
+    this.correctWidth = window.innerWidth < 786;
+  }
 
-    ngOnInit() {
-    }
+  constructor(public fbservice: FirebaseService, private title: Title) {
+    this.title.setTitle('ПП "Рефакт" м.Івано-Франківськ | Кольоровий та нержавіючий металопрокат. Виготовлення та монтаж поручнів');
+  }
+
+  ngOnInit() {
+  }
 }
 

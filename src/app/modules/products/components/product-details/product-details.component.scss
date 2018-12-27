@@ -1,6 +1,16 @@
-
+.product-title {
+  padding: 10px 0;
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+  font-weight: 300;
+}
+.gallery-container {
+  background-color: #212529;
+  margin-top: 50px;
+}
 .product-details {
-  padding-top: 15px;
+  padding-top: 50px;
   padding-bottom: 15px;
   max-width: 1000px;
 
@@ -8,12 +18,7 @@
     text-align: center;
   }
 
-  .product-title {
-    font-size: 2rem;
-    color: white;
-    text-align: center;
-    font-weight: 300;
-  }
+
 
   .product-header {
     flex-wrap: wrap;

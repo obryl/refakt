@@ -26,7 +26,7 @@ export class ContactFormComponent implements OnInit {
   contactForm = new FormGroup({
       name: new FormControl('', Validators.required),
       email: new FormControl('', [Validators.pattern(emailRegex), Validators.required]),
-      phone: new FormControl('', [Validators.minLength(10), Validators.required]),
+      phone: new FormControl('', [Validators.pattern('^[+]*[(]{0,1}[0-9]{1,4}[)]{0,1}[-\\s\\./0-9]*$'), Validators.required]),
       message: new FormControl('', Validators.required)
     }
   );
@@ -44,7 +44,7 @@ export class ContactFormComponent implements OnInit {
         this.wrongSubmit = false;
         const inputs = this.contactForm.controls;
         this.emailErr = inputs.email.hasError('pattern') && !inputs.email.pristine;
-        this.phoneErr = inputs.phone.hasError('minlength') && !inputs.phone.pristine;
+        this.phoneErr = inputs.phone.hasError('pattern') && !inputs.phone.pristine;
         this.requiredErr = inputs.email.hasError('required') || inputs.name.hasError('required') ||
           inputs.phone.hasError('required') || inputs.message.hasError('required');
 

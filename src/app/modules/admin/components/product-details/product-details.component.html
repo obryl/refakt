@@ -1,49 +1,55 @@
 <div *ngIf="productDetails" class="product-details container-fluid">
-  <div class="d-flex product-header">
-    <div class="product-image col-6">
-      <img [src]="productDetails?.imgUrl"/>
+    <div class="d-flex product-header">
+        <div class="product-image col-6">
+            <img [src]="productDetails?.imgUrl"/>
+        </div>
+        <div class="product-description col-6 ">
+            <h3 class="product-title mb-3">{{productDetails?.title}}</h3>
+            <p [innerHtml]="productDetails?.description"></p>
+        </div>
     </div>
-    <div class="product-description col-6 ">
-      <h3 class="product-title mb-3">{{productDetails?.title}}</h3>
-      <p [innerHtml]="productDetails?.description"></p>
+    <div *ngIf="productDetails.id !== 'poruchni';else handrails">
+        <input type="file" (change)="onFileLoad($event)"/>
+        <button class="add-new btn btn-outline-success" (click)="addFile()">Додати продукт</button>
+        <div class="products-list ">
+            <h4 class="text-center mt-3">Каталог товарів</h4>
+            <ul class="nav nav-tabs">
+                <li class="nav-item" *ngFor="let name of keys(products); let i = index">
+                    <a class="nav-link" (click)="activeTab = i" [ngClass]="{active: activeTab === i}">{{name}}</a>
+                </li>
+            </ul>
+            <table class="table table-hover table-dark">
+                <thead>
+                <tr>
+                    <th scope="col">Назва</th>
+                    <th scope="col">Деталі</th>
+                    <th scope="col">Одиниці виміру</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr *ngFor="let item of products[keys(products)[activeTab]]; let i = index">
+                    <td>{{keys(products)[activeTab]}}</td>
+                    <td>{{item.Description}}</td>
+                    <td>{{item.Price}}</td>
+                    <td (click)="removeItem(i)" style="cursor: pointer;">X</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        <h2 class="text-center mt-3">Додати новий продукт до категорії</h2>
+        <form [formGroup]="newItem" class="form" (ngSubmit)="addNew()">
+            <input class="form-control" formControlName="Name"
+                   placeholder="Назва"/>
+            <input class="form-control" formControlName="Description"
+                   placeholder="Деталі"/>
+            <input class="form-control" formControlName="Price"
+                   placeholder="Ціна"/>
+            <button type="submit" class="add-new btn btn-outline-success">Додати продукт</button>
+        </form>
     </div>
-  </div>
-  <input type="file" (change)="onFileLoad($event)"/>
-  <button class="add-new btn btn-outline-success" (click)="addFile()">Додати продукт</button>
-  <div class="products-list ">
-    <h4 class="text-center mt-3">Каталог товарів</h4>
-    <ul class="nav nav-tabs">
-      <li class="nav-item" *ngFor="let name of keys(products); let i = index">
-        <a class="nav-link" (click)="activeTab = i" [ngClass]="{active: activeTab === i}">{{name}}</a>
-      </li>
-    </ul>
-    <table class="table table-hover table-dark">
-      <thead>
-      <tr>
-        <th scope="col">Назва</th>
-        <th scope="col">Деталі</th>
-        <th scope="col">Одиниці виміру</th>
-      </tr>
-      </thead>
-      <tbody>
-      <tr *ngFor="let item of products[keys(products)[activeTab]]; let i = index">
-        <td>{{keys(products)[activeTab]}}</td>
-        <td>{{item.Description}}</td>
-        <td>{{item.Price}}</td>
-        <td (click)="removeItem(i)" style="cursor: pointer;">X</td>
-      </tr>
-      </tbody>
-    </table>
-  </div>
-  <h2 class="text-center mt-3">Додати новий продукт до категорії</h2>
-  <form [formGroup]="newItem" class="form" (ngSubmit)="addNew()">
-    <input class="form-control" formControlName="Name"
-           placeholder="Назва"/>
-    <input class="form-control" formControlName="Description"
-           placeholder="Деталі"/>
-    <input class="form-control" formControlName="Price"
-           placeholder="Ціна"/>
-    <button type="submit" class="add-new btn btn-outline-success">Додати продукт</button>
-  </form>
+    <ng-template #handrails>
+        <h2 class="text-center mt-3">Додати нову фотографію перил</h2>
+        <input type="file" multiple (change)="onPictureLoad($event)"/>
+    </ng-template>
 
 </div>

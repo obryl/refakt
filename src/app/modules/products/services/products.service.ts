@@ -1,13 +1,14 @@
 import {Injectable} from '@angular/core';
 import {AngularFireDatabase} from 'angularfire2/database';
 import {map} from 'rxjs/operators';
+import {AngularFireStorage} from 'angularfire2/storage';
 
 @Injectable({
   providedIn: 'root'
 })
 export class ProductsService {
 
-  constructor(private db: AngularFireDatabase) {
+  constructor(private db: AngularFireDatabase, private storage: AngularFireStorage) {
   }
 
   getList() {
@@ -23,9 +24,13 @@ export class ProductsService {
   getItem(itemId: string) {
     return this.db.object(`/categories/${itemId}`).snapshotChanges().pipe(
       map((category) => {
-        const data = category.payload.val() as any;
-        const id = category.key;
-        return {id, ...data};
+          const data = category.payload.val() as any;
+          const id = category.key;
+        if (itemId !== 'poruchni') {
+          return {id, ...data};
+        } else {
+          return {id, ...data};
+        }
       }));
   }
 
@@ -37,4 +42,11 @@ export class ProductsService {
     return this.db.list(`/categories/${itemId}`).set(`products`, product);
   }
 
+  uploadPicture(file: File) {
+    return this.storage.ref(`categories/handrails/${file.name}`).put(file);
+  }
+
+  getHandrailsImages() {
+    this.storage.ref('categories').child('handrails/IMG_9140.JPG').getDownloadURL().subscribe(data => console.log(data));
+  }
 }
