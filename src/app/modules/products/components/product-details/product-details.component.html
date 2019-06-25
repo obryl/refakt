@@ -40,6 +40,6 @@
 <div *ngIf="productDetails?.id === 'poruchni'" class="gallery-container">
     <div *ngIf="images">
         <h2 class="product-title">Фото встановлених перил</h2>
-        <ks-modal-gallery [id]="1" [modalImages]="images" [plainGalleryConfig]="carouselPreview" [title]="false" ></ks-modal-gallery>
+        <ks-modal-gallery [id]="1" [modalImages]="images" [slideConfig]="{sidePreviews:{show: false}}" [previewConfig]="{visible:false}" [plainGalleryConfig]="carouselPreview" [title]="false"  ></ks-modal-gallery>
     </div>
 </div>

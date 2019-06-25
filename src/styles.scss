@@ -57,3 +57,7 @@ li {
 .gmnoprint, .gm-control-active.gm-fullscreen-control {
   display:none !important;
 }
+
+ks-background .ng-overlay[aria-label="Modal gallery full screen background"] {
+  opacity: .9;
+}

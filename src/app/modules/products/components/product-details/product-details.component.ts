@@ -33,18 +33,10 @@ export class ProductDetailsComponent implements OnInit, OnDestroy {
   ) {
   }
 
-  setSliderImages(urls
-                    :
-                    Array<string>
-  ) {
+  setSliderImages(urls: Array<string>) {
     let i = 0;
     urls.forEach(url => {
-      this.images.push(new Image(
-        i,
-        { // modal
-          img: url
-        }
-      ));
+      this.images.push(new Image(i, {img: url}));
       i++;
     });
   }
@@ -54,7 +46,7 @@ export class ProductDetailsComponent implements OnInit, OnDestroy {
       this.productsService.getItem(params['productId']).subscribe((productDetails) => {
         this.productDetails = productDetails;
         this.products = productDetails.products || {};
-  this.title.setTitle(`ПП "Рефакт" м.Івано-Франківськ | ${productDetails.title}`);
+        this.title.setTitle(`ПП "Рефакт" м.Івано-Франківськ | ${productDetails.title}`);
         if (productDetails.id === 'poruchni') {
           this.setSliderImages(productDetails.products);
 
