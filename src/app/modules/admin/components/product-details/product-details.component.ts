@@ -4,7 +4,7 @@ import {Subject} from 'rxjs/internal/Subject';
 import {ProductsService} from '../../../products/services/products.service';
 import {saveAs} from 'file-saver';
 import {FormControl, FormGroup, Validators} from '@angular/forms';
-import {AngularFireStorage} from 'angularfire2/storage';
+import {AngularFireStorage} from '@angular/fire/storage';
 
 @Component({
   selector: 'app-product-details',
@@ -95,6 +95,7 @@ export class ProductDetailsComponent implements OnInit, OnDestroy {
 
     reader.onload = () => {
       // Splitting text from file by newline and then by '__'. Adding only unique items
+      // console.log(reader.result);
       reader.result.split('\n').forEach(key => {
         const arr = key.split('__');
         if (arr[0].length > 1) {

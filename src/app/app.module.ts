@@ -1,8 +1,5 @@
 import {BrowserModule} from '@angular/platform-browser';
 import {NgModule} from '@angular/core';
-import {AngularFireDatabaseModule} from 'angularfire2/database';
-import {AngularFireModule} from 'angularfire2';
-import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import {AppComponent} from './app.component';
 import {environment} from '../environments/environment';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
@@ -12,15 +9,21 @@ import {HomepageComponent} from './modules/main/containers/homepage/homepage.com
 import {DeliveryComponent} from './modules/main/containers/delivery/delivery.component';
 import {ContactsComponent} from './modules/main/containers/contacts/contacts.component';
 import {FirebaseService} from './core/services/firebase.service';
-import {AngularFireStorageModule} from 'angularfire2/storage';
 import {ClickOutsideModule} from 'ng-click-outside';
-import {AngularFireFunctionsModule} from 'angularfire2/functions';
 import {ReactiveFormsModule} from '@angular/forms';
 import {ContactFormComponent} from './modules/main/components/contact-form/contact-form.component';
 import {Title} from '@angular/platform-browser';
 import 'hammerjs';
 import 'mousetrap';
-import { GalleryModule } from '@ks89/angular-modal-gallery';
+import {GalleryModule} from '@ks89/angular-modal-gallery';
+import {AngularFireDatabaseModule} from '@angular/fire/database';
+import {AngularFireModule} from '@angular/fire';
+import {AngularFireStorageModule} from '@angular/fire/storage';
+import {AngularFireFunctionsModule} from '@angular/fire/functions';
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import {
+  MapModule
+} from 'angular-maps';
 
 @NgModule({
   declarations: [
@@ -33,19 +36,21 @@ import { GalleryModule } from '@ks89/angular-modal-gallery';
   ],
   imports: [
     BrowserModule,
+    NgbModule,
     AngularFireModule.initializeApp(environment.firebase),
     AngularFireDatabaseModule,
     AngularFireStorageModule,
     AngularFireFunctionsModule,
-    NgbModule.forRoot(),
     GalleryModule.forRoot(),
     BrowserAnimationsModule,
     AppRoutingModule,
     ClickOutsideModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    MapModule.forRootBing()
   ],
-  providers: [FirebaseService, Title],
+  providers: [FirebaseService, Title, ],
   bootstrap: [AppComponent]
 })
 export class AppModule {
 }
+

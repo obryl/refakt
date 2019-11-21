@@ -1,9 +1,9 @@
 import {Component, HostBinding, HostListener, OnInit} from '@angular/core';
 import {slideInDownAnimation} from '../../../../animations';
 import {FirebaseService} from '../../../../core/services/firebase.service';
-import {AngularFireAction, DatabaseSnapshot} from 'angularfire2/database';
 import {Observable} from 'rxjs';
 import {Title} from '@angular/platform-browser';
+import {AngularFireAction, DatabaseSnapshot} from '@angular/fire/database';
 
 
 @Component({
