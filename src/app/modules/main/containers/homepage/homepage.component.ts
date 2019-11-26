@@ -29,6 +29,7 @@ export class HomepageComponent implements OnInit {
   }
 
   ngOnInit() {
+    this.fbservice.getItems()
   }
 }
 
