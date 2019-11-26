@@ -1,9 +1,8 @@
-import {Component, HostBinding, OnInit, ViewChild} from '@angular/core';
+import {Component, HostBinding, OnInit} from '@angular/core';
 import {slideInDownAnimation} from '../../../../animations';
 import {FirebaseService} from '../../../../core/services/firebase.service';
 import {Title} from '@angular/platform-browser';
-import {BingMapAPILoaderConfig, BingMapAPILoader, WindowRef, DocumentRef} from 'angular-maps';
-import {MapAPILoader} from 'angular-maps';
+import {BingMapAPILoader, BingMapAPILoaderConfig, DocumentRef, WindowRef} from 'angular-maps';
 
 @Component({
   selector: 'app-contacts',
@@ -16,7 +15,7 @@ export class ContactsComponent implements OnInit {
   @HostBinding('@routeAnimation') routeAnimation = true;
   @HostBinding('style.display') display = 'block';
 
-  constructor(private fbservice: FirebaseService, private title: Title, private loader: MapAPILoader) {
+  constructor(private fbservice: FirebaseService, private title: Title) {
     this.title.setTitle('ПП "Рефакт" | Контактні дані та зворотній зв\'язок');
   }
 

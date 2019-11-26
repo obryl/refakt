@@ -1,4 +1,4 @@
-import {BrowserModule} from '@angular/platform-browser';
+import {BrowserModule, Title} from '@angular/platform-browser';
 import {NgModule} from '@angular/core';
 import {AppComponent} from './app.component';
 import {environment} from '../environments/environment';
@@ -12,7 +12,6 @@ import {FirebaseService} from './core/services/firebase.service';
 import {ClickOutsideModule} from 'ng-click-outside';
 import {ReactiveFormsModule} from '@angular/forms';
 import {ContactFormComponent} from './modules/main/components/contact-form/contact-form.component';
-import {Title} from '@angular/platform-browser';
 import 'hammerjs';
 import 'mousetrap';
 import {GalleryModule} from '@ks89/angular-modal-gallery';
@@ -21,9 +20,7 @@ import {AngularFireModule} from '@angular/fire';
 import {AngularFireStorageModule} from '@angular/fire/storage';
 import {AngularFireFunctionsModule} from '@angular/fire/functions';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
-import {
-  MapModule
-} from 'angular-maps';
+import {MapModule} from 'angular-maps';
 
 @NgModule({
   declarations: [

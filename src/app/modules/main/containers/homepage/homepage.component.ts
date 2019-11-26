@@ -5,7 +5,6 @@ import {Observable} from 'rxjs';
 import {Title} from '@angular/platform-browser';
 import {AngularFireAction, DatabaseSnapshot} from '@angular/fire/database';
 
-
 @Component({
   selector: 'app-homepage',
   templateUrl: './homepage.component.html',
@@ -29,7 +28,7 @@ export class HomepageComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.fbservice.getItems()
+    this.fbservice.getItems();
   }
 }
 

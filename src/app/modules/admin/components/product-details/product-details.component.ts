@@ -4,7 +4,6 @@ import {Subject} from 'rxjs/internal/Subject';
 import {ProductsService} from '../../../products/services/products.service';
 import {saveAs} from 'file-saver';
 import {FormControl, FormGroup, Validators} from '@angular/forms';
-import {AngularFireStorage} from '@angular/fire/storage';
 
 @Component({
   selector: 'app-product-details',

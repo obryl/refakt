@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {AuthService} from '../../services/auth.service';
 import {Router} from '@angular/router';
 
@@ -23,7 +23,7 @@ export class LoginComponent implements OnInit {
 
   signInWithEmail() {
     this.authService.signInRegular(this.user.email, this.user.password)
-      .then((res) => {
+      .then(() => {
         this.router.navigate(['admin']);
       })
       .catch((err) => console.log('error: ' + err));

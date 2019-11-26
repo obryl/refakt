@@ -1,4 +1,4 @@
-import { Injectable } from '@angular/core';
+import {Injectable} from '@angular/core';
 import {Observable} from 'rxjs';
 import {AngularFireStorage} from '@angular/fire/storage';
 import {AngularFireDatabase, AngularFireList} from '@angular/fire/database';
@@ -29,7 +29,7 @@ export class FirebaseService {
         console.dir(event.target);
         const filePath = `${path}${this.makeid()}${event.target.files[0].name}`;
         const ref = this.fbstorage.ref(filePath);
-        const task = ref.put(file).then(() => ref.getDownloadURL().subscribe(
+        ref.put(file).then(() => ref.getDownloadURL().subscribe(
             url => this.updateItem('-LIG-m3bs1kJ4iw9P8w5', {imgUrl: url}, '/categories')
             )
         );
