@@ -5,6 +5,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
+    "start_host_ip": "ng serve --host 0.0.0.0",
     "build": "ng build --prod --aot",
     "test": "ng test",
     "lint": "ng lint",

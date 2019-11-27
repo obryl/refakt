@@ -1,4 +1,4 @@
-import {Component, HostBinding, OnInit} from '@angular/core';
+import {Component, HostBinding, HostListener, OnInit} from '@angular/core';
 import {slideInDownAnimation} from '../../../../animations';
 import {FirebaseService} from '../../../../core/services/firebase.service';
 import {Title} from '@angular/platform-browser';
@@ -19,6 +19,7 @@ export class ContactsComponent implements OnInit {
     this.title.setTitle('ПП "Рефакт" | Контактні дані та зворотній зв\'язок');
   }
 
+  mobile;
   map = new BingMapAPILoader(new BingMapAPILoaderConfig(), new WindowRef(), new DocumentRef());
   mapstyle = {
     'version': '1.0',
@@ -75,6 +76,10 @@ export class ContactsComponent implements OnInit {
     }
   };
   infowindow;
+
+  @HostListener('window:resize') onResize() {
+    this.mobile = window.innerWidth < 786;
+  }
 
   ngOnInit() {
     this.map.Load().then(() => {

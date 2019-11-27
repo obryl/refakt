@@ -21,16 +21,11 @@ import {Component, HostListener, OnInit} from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
   isNavbarCollapsed = true;
-  _isNavbarCollapsedAnim = 'closed';
   smallHeader: boolean;
   smallHeaderMobile: boolean;
   navbar;
 
   constructor() {
-  }
-
-  isNavbarCollapsedAnim(): string {
-    return this._isNavbarCollapsedAnim;
   }
 
   ngOnInit() {
@@ -40,11 +35,9 @@ export class HeaderComponent implements OnInit {
   @HostListener('window:resize', ['$event.target'])
   onResize(event) {
     if (event.innerWidth > 575) {
-      this._isNavbarCollapsedAnim = 'open';
       this.smallHeaderMobile = false;
       this.isNavbarCollapsed = true;
     } else {
-      this._isNavbarCollapsedAnim = 'closed';
       this.smallHeaderMobile = true;
     }
   }
@@ -56,19 +49,12 @@ export class HeaderComponent implements OnInit {
 
   closeNavbar(event) {
     if (!this.isNavbarCollapsed && !event.target.className.includes('burger')) {
-      this._isNavbarCollapsedAnim = 'close';
       this.isNavbarCollapsed = true;
     }
   }
 
   toggleNavbar(): void {
-
-    if (this.isNavbarCollapsed) {
-      this._isNavbarCollapsedAnim = 'open';
-      this.isNavbarCollapsed = false;
-    } else {
-      this._isNavbarCollapsedAnim = 'closed';
-      this.isNavbarCollapsed = true;
-    }
+    // alert(this.isNavbarCollapsed);
+    this.isNavbarCollapsed = !this.isNavbarCollapsed;
   }
 }

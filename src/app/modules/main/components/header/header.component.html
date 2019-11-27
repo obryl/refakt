@@ -3,16 +3,12 @@
          [ngClass]="{'small': smallHeader, 'smallMobile': smallHeaderMobile }">
         <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 brand">
             <a routerLink="/home" class="navbar-brand"><img src="/assets/images/logo.png"></a>
-            <button class="navbar-toggler burger" (click)="toggleNavbar()" type="button"
-                    aria-controls="theNavbar"
-                    aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler burger" (click)="toggleNavbar()" type="button">
                 <span class="navbar-toggler-icon burger"></span>
             </button>
         </div>
 
-        <div [ngbCollapse]="isNavbarCollapsed" id="theNavbar"
-             [@collapse]="isNavbarCollapsedAnim()"
-             class="navbar-collapse collapse navbar-toggleable">
+        <div [ngbCollapse]="isNavbarCollapsed" id="theNavbar" class="navbar-collapse collapse navbar-toggleable">
             <ul class="navbar-nav  ml-auto" [ngClass]="{'mr-auto' : isNavbarCollapsed}" (clickOutside)="closeNavbar($event)">
                 <li class="nav-item">
                     <a (click)="isNavbarCollapsed=true" class="nav-link" routerLink="/home"
